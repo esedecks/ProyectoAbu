@@ -3,40 +3,108 @@
 }
 #header{
 	background-color: #2E3537	;
-	heigth:10%; 
+/* 	heigth:10%;  */
 	width: 100%; 	
 }
 header .col-md-4{
-	border:1px solid red; 
+/* 	border:1px solid red;  */
+}
+#header #subHeader{
+	background-color:  white; 
+	
 }
 
 #socialNetworks{
-	border: 1px dotted blue; 
-	display:inline; 
-	float:right;
-	padding:0px; 
-	margin:0px; 
-	border:0px; 
+/* 	border: 1px dashed blue ;  */
+/* 	display:inline-block;  */
+/* 	float:right; */
+/* 	padding:0px;  */
+	width:120px; 
+	margin:0 auto; 
+	
 }
-#socialNetworks  > li{
-	color: white;
-/* 	width:25px;  */
-/* 	height:25px;  */
-	border-radius:25px;  	 
+
+#socialNetworks   > .icon-button {
 	display:inline-block; 
-	margin-top:10px;
-	margin-bottom:10px;  
-}
-#socialNetworks  > li > a{
-	color: white;
 	width:25px; 
 	height:25px; 
-	border-radius:50%; 
-	border:1px solid white; 
-	display:inline-block; 
+	border-radius:100%; 	
 	text-align:center;  
-	vertical-align: middle;
+	margin-top:10px;
+	margin-bottom:10px;  
+	background-color: black;
+	cursor:pointer; 
+	border:1px solid black 
+	
+	
 }
-#socialNetworks  > li > a > i{
-	vertical-align: middle;
+
+#socialNetworks   > .icon-button > i {
+	position:relative; 
+	top:4px;
+	
+}
+
+#socialNetworks   > .icon-button.twitter:hover  {
+	background-color:#4099ff; 
+	border-color:#4099ff; 
+	
+}
+
+#socialNetworks   > .icon-button.twitter:hover >i {
+	color:white; 
+}
+
+
+#socialNetworks   > .icon-button.facebook:hover  {
+	background-color:#3B5998; 
+	border-color:#3B5998; 
+}
+
+#socialNetworks   > .icon-button.facebook:hover >i {
+	color:white; 
+}
+
+#socialNetworks   > .icon-button.youtube:hover  {
+	background-color:#cd201f; 
+	border-color:#cd201f; 
+}
+
+#socialNetworks   > .icon-button.youtube:hover >i {
+	color:white; 
+}
+
+.twitter-icon{
+	color:white;
+/* 	color: #4099ff; */
+}
+.facebook-icon{
+	color:white;
+/* 	color: #3B5998;  */
+}
+.youtube-icon{
+	color:white;
+/* 	color: #cd201f;  */
+	
+}
+.tshirts{
+/* 	border:1px solid yellow ;  */
+	width:50px; 
+	margin: 0 auto; 
+	
+}
+.tshirts .tshirt {
+	font-size: 25px; 
+}
+h1{
+/* 	font-family: 'Dancing Script', cursive; */
+/*     font-family: 'Playball', cursive; */
+/*     font-family: 'Gloria Hallelujah', cursive;    */
+    font-family: 'Rock Salt', cursive;
+	font-size: 1.3em; 
+	color:black; 
+/* 	border:1px solid white;  */
+	margin: 0px 0px 0px 0px;
+	text-align: center; 
+/* 	margin:0px;  */
 }
