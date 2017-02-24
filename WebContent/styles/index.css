@@ -2,7 +2,8 @@
 	padding:0px; 	
 }
 #header{
-	background-color: #2E3537	;
+	background-color: #252525; 
+/* 	 #2E3537	; */
 /* 	heigth:10%;  */
 	width: 100%; 	
 }
@@ -11,52 +12,77 @@ header .col-md-4{
 }
 #header #subHeader{
 	background-color:  white; 
-	
+	border : 1px solid yellow;
+	height:150px;	
+	display: table; 
+	width:100%;
 }
-
+h1{
+/* 	font-family: 'Dancing Script', cursive; */
+/*     font-family: 'Playball', cursive; */
+/*     font-family: 'Gloria Hallelujah', cursive;    */
+    font-family: 'Rock Salt', cursive;
+	font-size: 1.3em; 
+	color:black;  
+	display: table-cell; 
+	vertical-align: middle;
+	text-align: center; 
+}
 #socialNetworks{
-/* 	border: 1px dashed blue ;  */
-/* 	display:inline-block;  */
-/* 	float:right; */
-/* 	padding:0px;  */
-	width:120px; 
-	margin:0 auto; 
-	
+	width:100px; 
+	margin:0 auto; 	
 }
-
 #socialNetworks   > .icon-button {
 	display:inline-block; 
-	width:25px; 
-	height:25px; 
-	border-radius:100%; 	
+	width:30px; 
+	height:30px; 
+	border-radius:50%; 	
 	text-align:center;  
-	margin-top:10px;
-	margin-bottom:10px;  
-	background-color: black;
+/* 	margin-top:10px; */
+/* 	margin-bottom:10px;   */
+	background-color: #252525;
 	cursor:pointer; 
-	border:1px solid black 
-	
-	
+/* 	border:1px solid black ;  */
+	margin-right:-4px;
+	padding:0px; 
+	border: 0px;  	
 }
+
+@keyframes socialMediaButtonTwitter{
+	from{background-color:black;}
+	to{background-color:#4099ff; }
+}
+@keyframes socialMediaButtonFacebook{
+	from{background-color:black;}
+	to{background-color:#3B5998; 
+		  }
+}
+@keyframes socialMediaButtonYoutube{
+	from{background-color:black;}
+	to{background-color:#cd201f; 
+		   }
+}
+
 
 #socialNetworks   > .icon-button > i {
 	position:relative; 
-	top:4px;
-	
+	top:7px;
 }
 
 #socialNetworks   > .icon-button.twitter:hover  {
+	animation-name:socialMediaButtonTwitter; 
+	animation-duration: 0.6s; 
 	background-color:#4099ff; 
 	border-color:#4099ff; 
-	
 }
 
 #socialNetworks   > .icon-button.twitter:hover >i {
 	color:white; 
 }
 
-
 #socialNetworks   > .icon-button.facebook:hover  {
+	animation-name:socialMediaButtonFacebook; 
+	animation-duration: 0.6s; 
 	background-color:#3B5998; 
 	border-color:#3B5998; 
 }
@@ -66,6 +92,8 @@ header .col-md-4{
 }
 
 #socialNetworks   > .icon-button.youtube:hover  {
+	animation-name:socialMediaButtonYoutube; 
+	animation-duration: 0.6s; 
 	background-color:#cd201f; 
 	border-color:#cd201f; 
 }
@@ -76,16 +104,12 @@ header .col-md-4{
 
 .twitter-icon{
 	color:white;
-/* 	color: #4099ff; */
 }
 .facebook-icon{
 	color:white;
-/* 	color: #3B5998;  */
 }
 .youtube-icon{
 	color:white;
-/* 	color: #cd201f;  */
-	
 }
 .tshirts{
 /* 	border:1px solid yellow ;  */
@@ -94,17 +118,20 @@ header .col-md-4{
 	
 }
 .tshirts .tshirt {
-	font-size: 25px; 
+	font-size: 20px; 
 }
-h1{
-/* 	font-family: 'Dancing Script', cursive; */
-/*     font-family: 'Playball', cursive; */
-/*     font-family: 'Gloria Hallelujah', cursive;    */
-    font-family: 'Rock Salt', cursive;
-	font-size: 1.3em; 
-	color:black; 
-/* 	border:1px solid white;  */
-	margin: 0px 0px 0px 0px;
-	text-align: center; 
-/* 	margin:0px;  */
+footer{
+	width:100%; 
+	height:200px; 
+	background-color: #252525; 
+/* 	background: linear-gradient(#D0D0D0 , #E8E8E8 ); Standard syntax	 */
 }
+
+aside{
+	float:left; 
+	background-color: gray; 
+	
+}
+
+
+
