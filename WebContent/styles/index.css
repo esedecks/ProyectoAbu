@@ -11,6 +11,10 @@ header .col-md-4{
 /* 	border:1px solid red;  */
 }
 
+header #headerRow{
+	border-bottom: 8px solid  #47BAC1;
+}
+
 #address{
 	/*alinear el contenido de address al centro*/
 	text-align:center; 
@@ -157,7 +161,58 @@ footer{
 	overflow: auto;
   	zoom: 1;
   	border-top: 8px solid  #47BAC1;
+
 }
+footer h5{
+/* 	box-sizing: border-box;  */
+	margin-bottom: 13px; 
+	color:#5F5F55; 
+	text-transform:uppercase; 
+	text-align:center; 
+	line-eight:15.4px; 
+    font-family: 'Oxygen', sans-serif;
+    font-size: 11px;
+    font-weight:700;
+    letter-spacing: 1px;
+    outline-color:#5F5F55; 
+    outline-style: none; 
+    outline-width: 0px;   	
+}
+.footerLink{
+	margin-top:20px;  
+}
+.footerAddress{
+	margin-top: 20px; 	
+}
+.newsletter{
+	margin-top: 20px; 	
+}
+.footerLink ul{
+/* 	list-style-type:none;  */
+	font-size:10px;
+	font-family: 'Slabo 20px', serif;
+/* 	padding:0;  */
+/* 	margin: 0;  */
+	text-align: center; 
+}
+.footerLink ul li{
+	display: block;
+	margin-bottom:2px; 
+}
+.footerLink a{
+	text-decoration: none;
+	color: white;
+	cursor:pointer; 
+}
+.footerAddress ul{
+	list-style-type:none; 
+	color:white; 
+	font-size:10px; 
+	font-family: 'Slabo 20px', serif;
+/* 	text-align:center;  */
+}
+
+
 
 
 
