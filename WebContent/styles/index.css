@@ -1,11 +1,11 @@
 #mainContainer{
-	padding:0px; 	
+	padding:0px;
 }
 #header{
-	background-color: #252525; 
+	background-color: #252525;
 /* 	 #2E3537	; */
 /* 	heigth:10%;  */
-	width: 100%; 	
+	width: 100%;
 }
 header .col-md-4{
 /* 	border:1px solid red;  */
@@ -17,24 +17,25 @@ header #headerRow{
 
 #address{
 	/*alinear el contenido de address al centro*/
-	text-align:center; 
+	text-align:center;
 }
 #address ul{
 	margin-top:5px;
 }
 #address .addressElement{
-	color:white; 
-	display:inline; 
+	color:white;
+	display:inline;
     font-family: 'Slabo 20px', serif;
-    font-size: x-small; 
-    margin-right:3px;	
+    font-size: x-small;
+    margin-right:3px;
 	vertical-align: bottom;
+	font-size: 13px;
 }
 #header #subHeader{
-	background-color:  white; 
+	background-color:  white;
 /* 	border : 1px solid yellow; */
-	height:150px;	
-	display: table; 
+	height:150px;
+	display: table;
 	width:100%;
 }
 h1{
@@ -42,31 +43,31 @@ h1{
 /*     font-family: 'Playball', cursive; */
 /*     font-family: 'Gloria Hallelujah', cursive;    */
     font-family: 'Rock Salt', cursive;
-	font-size: 1.3em; 
-	color:black;  
-	display: table-cell; 
+	font-size: 1.3em;
+	color:black;
+	display: table-cell;
 	vertical-align: middle;
-	text-align: center; 
+	text-align: center;
 }
 #socialNetworks{
 /* 	border:1px solid blue;  */
 }
 #socialNetworks   > .icon-button {
-	display:inline-block; 
-	width:30px; 
-	height:30px; 
-	border-radius:50%; 	
-	text-align:center;  
+	display:inline-block;
+	width:30px;
+	height:30px;
+	border-radius:50%;
+	text-align:center;
 /* 	margin-top:10px; */
 /* 	margin-bottom:10px;   */
 	background-color: #252525;
-	cursor:pointer; 
+	cursor:pointer;
 /* 	border:1px solid black ;  */
 	margin-right:-4px;
-	margin-bottom: 3px; 
-	padding:0px; 
-	border: 0px;  	
-	
+	margin-bottom: 3px;
+	padding:0px;
+	border: 0px;
+
 }
 
 @keyframes socialMediaButtonTwitter{
@@ -75,63 +76,84 @@ h1{
 }
 @keyframes socialMediaButtonFacebook{
 	from{background-color:black;}
-	to{background-color:#3B5998; 
+	to{background-color:#3B5998;
 		  }
 }
 @keyframes socialMediaButtonYoutube{
 	from{background-color:black;}
-	to{background-color:#cd201f; 
+	to{background-color:#cd201f;
+		   }
+}
+@keyframes socialMediaButtonPinterest{
+	from{background-color:black;}
+	to{background-color:rgb(189, 8, 28);
+		   }
+}
+@keyframes socialMediaButtonInstagram{
+	from{background-color:black;}
+	to{background-color: #DC2D79;
 		   }
 }
 
 
 #socialNetworks   > .icon-button > i {
-	position:relative; 
+	position:relative;
 	top:7px;
 }
 
 #socialNetworks   > .icon-button.twitter:hover  {
-	animation-name:socialMediaButtonTwitter; 
-	animation-duration: 0.6s; 
-	background-color:#4099ff; 
-	border-color:#4099ff; 
+	animation-name:socialMediaButtonTwitter;
+	animation-duration: 0.6s;
+	background-color:#4099ff;
+	border-color:#4099ff;
 }
 
 #socialNetworks   > .icon-button.twitter:hover >i {
-	color:white; 
+	color:white;
 }
 
 #socialNetworks   > .icon-button.facebook:hover  {
-	animation-name:socialMediaButtonFacebook; 
-	animation-duration: 0.6s; 
-	background-color:#3B5998; 
-	border-color:#3B5998; 
+	animation-name:socialMediaButtonFacebook;
+	animation-duration: 0.6s;
+	background-color:#3B5998;
+	border-color:#3B5998;
 }
 
 #socialNetworks   > .icon-button.facebook:hover >i {
-	color:white; 
+	color:white;
 }
 
 #socialNetworks   > .icon-button.youtube:hover  {
-	animation-name:socialMediaButtonYoutube; 
-	animation-duration: 0.6s; 
-	background-color:#cd201f; 
-	border-color:#cd201f; 
+	animation-name:socialMediaButtonYoutube;
+	animation-duration: 0.6s;
+	background-color:#cd201f;
+	border-color:#cd201f;
 }
 
 #socialNetworks   > .icon-button.youtube:hover >i {
-	color:white; 
+	color:white;
 }
 
 #socialNetworks   > .icon-button.pinterest:hover  {
-	animation-name:socialMediaButtonYoutube; 
-	animation-duration: 0.6s; 
-	background-color:#cd201f; 
-	border-color:#cd201f; 
+	animation-name:socialMediaButtonPinterest;
+	animation-duration: 0.6s;
+	background-color:rgb(189, 8, 28);;
+	border-color:rgb(189, 8, 28);;
 }
 
 #socialNetworks   > .icon-button.pinterest:hover >i {
-	color:white; 
+	color:white;
+}
+
+#socialNetworks   > .icon-button.instagram:hover  {
+	animation-name:socialMediaButtonInstagram;
+	animation-duration: 0.6s;
+	background-color:#DC2D79;
+	border-color:#DC2D79;
+}
+
+#socialNetworks   > .icon-button.instagram:hover >i {
+	color:white;
 }
 
 .twitter-icon{
@@ -144,20 +166,25 @@ h1{
 	color:white;
 }
 .pinterest-icon{
-	color:white; 	
+	color:white;
 }
+.instragram-icon{
+	color:white;
+}
+
+
 .tshirts{
-	width:50px; 
-	margin: 0 auto; 
-	
+	width:50px;
+	margin: 0 auto;
+
 }
 .tshirts .tshirt {
-	font-size: 20px; 
+	font-size: 20px;
 }
 footer{
-	width:100%; 
-	height:200px; 
-	background-color: #252525; 
+	width:100%;
+	height:200px;
+	background-color: #252525;
 	overflow: auto;
   	zoom: 1;
   	border-top: 8px solid  #47BAC1;
@@ -165,50 +192,72 @@ footer{
 }
 footer h5{
 /* 	box-sizing: border-box;  */
-	margin-bottom: 13px; 
-	color:#5F5F55; 
-	text-transform:uppercase; 
-	text-align:center; 
-	line-eight:15.4px; 
+	margin-bottom: 13px;
+	color:#5F5F55;
+	text-transform:uppercase;
+	//text-align:center;
+	line-eight:15.4px;
     font-family: 'Oxygen', sans-serif;
-    font-size: 11px;
+    font-size: 13px;
     font-weight:700;
     letter-spacing: 1px;
-    outline-color:#5F5F55; 
-    outline-style: none; 
-    outline-width: 0px;   	
+    outline-color:#5F5F55;
+    outline-style: none;
+    outline-width: 0px;
 }
 .footerLink{
-	margin-top:20px;  
+	margin-top:20px;
 }
 .footerAddress{
-	margin-top: 20px; 	
+	margin-top: 20px;
 }
 .newsletter{
-	margin-top: 20px; 	
+	margin-top: 20px;
+}
+.newsletter h5{
+	font-size:18px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+.newsletter h3{
+	font-size:24px;
+	text-transform:uppercase;
+	text-align:center;
+	color: #acacac;
+	margin-top: 3px;
+	margin-bottom: 10px;
+}
+.newsletter p{
+	font-size: 12;
+	color:#A3A4A5;
+	font-weight: 400;
+	line-height: 18px;
+	text-align: center;
+
 }
 .footerLink ul{
-/* 	list-style-type:none;  */
-	font-size:10px;
-	font-family: 'Slabo 20px', serif;
-/* 	padding:0;  */
-/* 	margin: 0;  */
-	text-align: center; 
+	font-size:12px;
+    font-family: 'Oxygen', sans-serif;
+	line-height: 20px;
 }
 .footerLink ul li{
 	display: block;
-	margin-bottom:2px; 
+	margin-bottom:2px;
+
 }
 .footerLink a{
 	text-decoration: none;
+	color: #A3A4A5;
+	cursor:pointer;
+}
+.footerLink a:hover{
 	color: white;
-	cursor:pointer; 
 }
 .footerAddress ul{
-	list-style-type:none; 
-	color:white; 
-	font-size:10px; 
-	font-family: 'Slabo 20px', serif;
+	list-style-type:none;
+	color:#A3A4A5;
+	font-size:12px;
+	font-family: 'Oxygen', sans-serif;
 /* 	text-align:center;  */
 }
 
