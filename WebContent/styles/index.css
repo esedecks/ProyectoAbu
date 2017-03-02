@@ -1,19 +1,17 @@
 
 /* 	HEADER SECTION */
+.row{
+	margin:  0px;
 
-
+}
 #mainContainer{
 	padding:0px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 #header{
 	background-color: #252525;
-/* 	 #2E3537	; */
-/* 	heigth:10%;  */
 	width: 100%;
-}
-
-header #headerRow{
-	border-bottom: 8px solid  #47BAC1;
 }
 
 #address{
@@ -34,11 +32,14 @@ header #headerRow{
 }
 #header #subHeader{
 	background-color:  white;
-/* 	border : 1px solid yellow; */
 	height:150px;
 	display: table;
 	width:100%;
 }
+#subHeader{
+	border-top: 8px solid  #47BAC1;
+}
+
 h1{
     font-family: 'Rock Salt', cursive;
 	font-size: 1.3em;
@@ -47,9 +48,7 @@ h1{
 	vertical-align: middle;
 	text-align: center;
 }
-#socialNetworks{
-/* 	border:1px solid blue;  */
-}
+
 #socialNetworks   > .icon-button {
 	display:inline-block;
 	width:30px;
@@ -183,25 +182,36 @@ h1{
 										/* 	MAIN SECTION */
 
 #mainContent{
-	border-top: 8px solid #47BAC1; 
-	padding-top: 30px; 	
+	border-top: 8px solid #47BAC1;
+	padding-top: 30px;
+
+}
+.sidebar{
+	border:1px solid black;
+
 }
 
+.catalogSection{
+	margin-bottom: 50px;
+
+}
 .catalogSection h4{
 	font-family: 'Oxygen', sans-serif;
 	text-transform: uppercase;
-	font-weight: 700;  
-	border-bottom: 4px solid #E4E4E4; 
-	padding-bottom: 9px; 
-	margin-bottom: 17px; 
+	font-weight: 700;
+	border-bottom: 4px solid #E4E4E4;
+	padding-bottom: 9px;
+	margin-bottom: 17px;
 }
 .items {
-	padding: 20px;
+	padding-top: 20px;
+	padding-left: 70px;
+	border:1px solid gray;
 }
 .items img{
 	display: inline-block;
 	margin-right: 10px;
-	margin-left: 10px;  
+	margin-left: 10px;
 	margin-bottom: 20px;
 }
 
@@ -236,18 +246,15 @@ footer h5{
 }
 .newsletter{
 	margin-top: 20px;
-	text-aling: center; 
+	margin-bottom: 50px;
 }
-.newsletter
 .newsletter h5{
 	font-size:18px;
 	text-align: center;
-	margin-bottom: 0px;
 }
 .newsletter h3{
 	font-size:24px;
 	text-transform:uppercase;
-	text-align:center;
 	color: #acacac;
 	margin-top: 3px;
 	margin-bottom: 10px;
@@ -257,24 +264,29 @@ footer h5{
 	color:#A3A4A5;
 	font-weight: 400;
 	line-height: 18px;
-	text-align: center;
 
 }
 input#form-newsletter{
-	background-color: #3B3B3B;   
-	border: 0px; 
-	border-radius: 0px;
-	width: 200px; 
-	margin-right:10px; 
-	font-family: 'Oxygen', sans-serif;
-	font-size:12px;
-}
-a#basic-addon.input-group-addon{
-	box-sizing:border-box; 
+
 	color: white;
-	font-weight: bold; 
+	width: 200px;
+	height: 40px;
+	padding: 7px;
+	background-color: #3B3B3B;
+	border-radius: 0px;
+	border: 0px;
+	font-family: 'Oxygen', sans-serif;
+	font-size:13px;
+}
+
+a#basic-addon{
+	padding: 10px;
+	width: 50px;
+	height:38px;
+	color: white;
+	font-weight: bold;
 	border:2px solid cyan;
-	background-color: #252525;   
+	background-color: #252525;
 	border-radius: 0px;
 }
 
