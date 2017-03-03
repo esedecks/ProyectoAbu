@@ -323,6 +323,15 @@ input#form-newsletter{
 
 
 
+/*Si la pantalla es max pequeña*/
+@media screen and (max-width: 1000px) {
+    footer{
+    	text-align: center; 
+    }
+}
+
+
+
 
 
 
