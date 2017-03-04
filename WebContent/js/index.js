@@ -1,7 +1,10 @@
 $(document).ready(function(){
-	$('img')
-    .wrap('<span style="display:inline-block"></span>')
-    .css('display', 'block')
-    .parent()
-    .zoom();
+	
+	$(window).bind('scroll', function () {
+	    if ($(window).scrollTop() > 50) {
+	        $('.menu').addClass('fixed');
+	    } else {
+	        $('.menu').removeClass('fixed');
+	    }
+	});
 });

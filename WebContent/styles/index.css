@@ -1,4 +1,3 @@
-
 /* 	HEADER SECTION */
 .row{
 	margin:  0px;
@@ -18,6 +17,7 @@
 	min-height: 0px;
 	background-color: #252525;
 	width: 100%;
+	border-color: #252525; 
 }
 #address{
 	/*alinear el contenido de address al centro*/
@@ -45,7 +45,8 @@
 
 
 #subHeader{
-
+	max-height: 350px; 
+ 	min-height: 250px ;   
 }
 
 h1{
@@ -109,7 +110,7 @@ h1{
 
 #socialNetworks   > .icon-button.twitter:hover  {
 	animation-name:socialMediaButtonTwitter;
-	animation-duration: 0.6s;
+	animation-duration: 0.5s;
 	background-color:#4099ff;
 	border-color:#4099ff;
 }
@@ -120,7 +121,7 @@ h1{
 
 #socialNetworks   > .icon-button.facebook:hover  {
 	animation-name:socialMediaButtonFacebook;
-	animation-duration: 0.6s;
+	animation-duration: 0.5s;
 	background-color:#3B5998;
 	border-color:#3B5998;
 }
@@ -131,7 +132,7 @@ h1{
 
 #socialNetworks   > .icon-button.youtube:hover  {
 	animation-name:socialMediaButtonYoutube;
-	animation-duration: 0.6s;
+	animation-duration: 0.5s;
 	background-color:#cd201f;
 	border-color:#cd201f;
 }
@@ -142,7 +143,7 @@ h1{
 
 #socialNetworks   > .icon-button.pinterest:hover  {
 	animation-name:socialMediaButtonPinterest;
-	animation-duration: 0.6s;
+	animation-duration: 0.5s;
 	background-color:rgb(189, 8, 28);;
 	border-color:rgb(189, 8, 28);;
 }
@@ -153,7 +154,7 @@ h1{
 
 #socialNetworks   > .icon-button.instagram:hover  {
 	animation-name:socialMediaButtonInstagram;
-	animation-duration: 0.6s;
+	animation-duration: 0.5s;
 	background-color:#DC2D79;
 	border-color:#DC2D79;
 }
