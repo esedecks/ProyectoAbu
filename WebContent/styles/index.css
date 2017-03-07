@@ -9,6 +9,7 @@
 	margin-right: 0px;
 }
 #header{
+	background-color: 
 	background-color: #252525;
 	width: 100%;
 }
@@ -45,19 +46,18 @@
 
 
 #subHeader{
-	max-height: 650px;
- 	min-height: 550px ;
- 	background-image: url("../images/fashion.jpg");
- 	//background-image: url("http://www.fondos7.net/wallpaper-original/wallpapers/emma-watson-fashion-2011-3618.jpg");
+	max-height: 400px;
+ 	min-height: 350px ;
+/*  	background-image: url("../images/fashion.jpg"); */
+/*  	//background-image: url("http://www.fondos7.net/wallpaper-original/wallpapers/emma-watson-fashion-2011-3618.jpg"); */
 
- 	background-attachment: fixed;
+/*  	background-attachment: fixed; */
 }
 
 h1{
 	//font-family: 'Indie Flower', cursive;
 	font-family: 'Oswald', sans-serif;
-
-	text-shadow: 3px 3px black;
+	text-shadow: 3px 3px gray;
    // font-family: 'Rock Salt', cursive;
 	font-size: 4.3em;
 	color:black;
@@ -65,7 +65,7 @@ h1{
 	vertical-align: middle;
 	text-align: center;
 	font-weight: bold;
-	color: white;
+	color: black;
 }
 
 #socialNetworks   > .icon-button {
@@ -224,13 +224,14 @@ h1{
 }
 .items {
 	padding-top: 20px;
-	text-align: center;
+	text-align:center; 
 }
 .items img{
 	display: inline-block;
-	margin-right: 30px;
+	margin-right: 10px;
 	margin-left: auto;
 	margin-bottom: 10px;
+	
 }
 
 										/* 	FOOTER SECTION */
@@ -240,12 +241,8 @@ footer{
 	background-color: #252525;
 	zoom: 1;
   	border-top: 8px solid  #47BAC1;
-
-
-
 }
 footer h5{
-/* 	box-sizing: border-box;  */
 	margin-bottom: 13px;
 	color:#5F5F55;
 	text-transform:uppercase;
@@ -290,9 +287,8 @@ footer h5{
 
 }
 input#form-newsletter{
-
 	color: white;
-	width: 200px;
+/* 	width: 200px; */
 	height: 40px;
 	padding: 7px;
 	background-color: #3B3B3B;
@@ -304,8 +300,8 @@ input#form-newsletter{
 
 #basic-addon{
 	padding: 10px;
-	width: 50px;
-	height:40px;
+/* 	width: 50px; */
+/* 	height:40px; */
 	color: white;
 	font-weight: bold;
 	border:2px solid cyan;
@@ -338,7 +334,6 @@ input#form-newsletter{
 	font-family: 'Oxygen', sans-serif;
 /* 	text-align:center;  */
 }
-
 
 
 /*Si la pantalla es max pequeña*/

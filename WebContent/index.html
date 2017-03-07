@@ -43,17 +43,32 @@
 				<div class="container">
 				    <div id ="headerRow">
 						<div class="row"  >
-							<div class="col-md-3">
+							<div class="col-md-2">
 								<div class="tshirts">
 									<a class="tshirt" href="#" class=""><i class="ionicons ion-tshirt-outline"></i></a>
 									<a class="tshirt" href="#" class=""><i class="ionicons ion-tshirt"></i></a>
 								</div>
 							</div>
-							<div class="col-md-6" >
-
+							<div class="col-md-7" >
+								<div class="center-block">
+									<ul class="nav nav-tabs center-block">
+										<li class="active"><a href="#">Home</a></li>
+										<li class="dropdown">
+									    	<a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu 1
+									    	<span class="caret"></span></a>
+									    	<ul class="dropdown-menu">
+										      	<li><a href="#">Submenu 1-1</a></li>
+										      	<li><a href="#">Submenu 1-2</a></li>
+										      	<li><a href="#">Submenu 1-3</a></li>
+									   		 </ul>
+									  	</li>
+										<li><a href="#">Menu 2</a></li>
+										<li><a href="#">Menu 3</a></li>
+									</ul>
+								</div>
 							</div>
 							<div class="col-md-3" id="rightHeaderSection">
-								<div id="socialNetworks">
+								<div id="socialNetworks" class="center-block">
 									<a class="icon-button twitter"><i class="fa fa-twitter twitter-icon" ></i></a>
 									<a class="icon-button facebook"><i class="fa fa-facebook facebook-icon"></i></a>
 									<a class="icon-button youtube"><i class="fa fa-youtube-play youtube-icon"></i></a>
@@ -67,51 +82,102 @@
 			</nav>
 			<div id="subHeader">
 
-				<h1>ABURELÉ </h1>
+				<h1>HEADING </h1>
 			</div>
 		</header>
-
 		<div class="container-fluid" id="mainContent">
 			<div class="row">
-				<div class="col-md-3">
-					<div class="sidebar">
-						<div class="panel panel-default">
-							<div class="panel-heading">CATEGORÍAS DE LOS PRODUCTOS</div>
+				<div class="col-md-3 sidebar">
+					<div class="panel panel-default">
+						<div class="panel-heading">CATEGORÍAS DE LOS PRODUCTOS</div>
 							<div class="panel-body">
-								<ul>
-									<li>Mujer</li>
-									<li>Hombre</li>
-								</ul>
-
+								<div class="collapse navbar-collapse navbar-ex1-collapse nav-bar-side-collapse">
+									<ul class="nav nav-bar side-nav">
+										<li>
+											<a href="" class ="collapsed" data-toggle="collapse" data-target="#women" aria-expended="false">Mujeres <i class="fa fa-plus"></i></a>
+											<ul id="women" class="collapseItem collapse">
+												<li>
+													<a href=""><i class="fa fa-caret-right" aria-hidden="true"></i>Playeras lisas<span>(6)</span></a>
+												</li>
+												<li>
+													<a href=""><i class="fa fa-caret-right" aria-hidden="true"></i>Playeras sublimadas<span>(6)</span></a>
+												</li>
+												<li>
+													<a href=""><i class="fa fa-caret-right" aria-hidden="true"></i>Playeras estampadas<span>(6)</span></a>
+												</li>
+												<li>
+													<a href=""><i class="fa fa-caret-right" aria-hidden="true"></i>Accesorios<span>(6)</span></a>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
 				<div class="col-md-9 catalogSection" >
 					<h4>Colección destacada</h4>
 					<div class="items">
- 						<img src="http://d26lpennugtm8s.cloudfront.net/stores/114/482/products/m315-f93d4678d375fb21d2aff926d2f58765-1024-1024.jpg" width="180px" height="180px" class="img-responsive img-thumbnail " alt="Responsive image">
--- 						<img src="http://cdn.umg3.net/keanemusic/data/image/Cameron.jpg" width="180px" height="180px" class="img-responsive img-thumbnail " alt="Responsive image">
- 						<img src="http://d26lpennugtm8s.cloudfront.net/stores/114/482/products/m234-e0c20a67281ef457391e833badcb4f1d-1024-1024.jpg" class="img-responsive img-thumbnail" width="180px" height="180px" alt="Responsive image">
-						<img src="http://placehold.it/180x180"  class="img-responsive img-thumbnail " alt="Responsive image">
-						<img src="http://placehold.it/180x180"  class="img-responsive img-thumbnail " alt="Responsive image">
-						<img src="http://placehold.it/180x180"  class="img-responsive img-thumbnail " alt="Responsive image">
-						<img src="http://placehold.it/180x180"  class="img-responsive img-thumbnail " alt="Responsive image">
-						<img src="http://placehold.it/180x180"  class="img-responsive img-thumbnail " alt="Responsive image">
-						<img src="http://placehold.it/180x180" class="img-responsive img-thumbnail " alt="Responsive image">
-						<img src="http://placehold.it/180x180" class="img-responsive img-thumbnail " alt="Responsive image">
-						<img src="http://placehold.it/180x180" class="img-responsive img-thumbnail " alt="Responsive image">
-						<img src="http://placehold.it/180x180" class="img-responsive img-thumbnail " alt="Responsive image">
-						<img src="http://placehold.it/180x180" class="img-responsive img-thumbnail " alt="Responsive image">
-						<img src="http://placehold.it/180x180" class="img-responsive img-thumbnail " alt="Responsive image">
-						<img src="http://placehold.it/180x180" class="img-responsive img-thumbnail " alt="Responsive image">
-						<img src="http://placehold.it/180x180" class="img-responsive img-thumbnail " alt="Responsive image">
-						<img src="http://placehold.it/180x180" class="img-responsive img-thumbnail " alt="Responsive image">
-						<img src="http://placehold.it/180x180" class="img-responsive img-thumbnail " alt="Responsive image">
-
-
+					 <ul class="list-inline">
+					    <li><a href="#"><img src="http://placehold.it/175x175" class="img-responsive img-thumbnail" alt="Responsive image"></a></li>
+					    <li><a href="#"><img src="http://placehold.it/175x175" class="img-responsive img-thumbnail" alt="Responsive image"></a></li>
+					    <li><a href="#"><img src="http://placehold.it/175x175" class="img-responsive img-thumbnail" alt="Responsive image"></a></li>
+					    <li><a href="#"><img src="http://placehold.it/175x175" class="img-responsive img-thumbnail" alt="Responsive image"></a></li>
+					    <li><a href="#"><img src="http://placehold.it/175x175" class="img-responsive img-thumbnail" alt="Responsive image"></a></li>
+					    <li><a href="#"><img src="http://placehold.it/175x175" class="img-responsive img-thumbnail" alt="Responsive image"></a></li>
+					    <li><a href="#"><img src="http://placehold.it/175x175" class="img-responsive img-thumbnail" alt="Responsive image"></a></li>
+					    <li><a href="#"><img src="http://placehold.it/175x175" class="img-responsive img-thumbnail" alt="Responsive image"></a></li>
+					    <li><a href="#"><img src="http://placehold.it/175x175" class="img-responsive img-thumbnail" alt="Responsive image"></a></li>
+					    <li><a href="#"><img src="http://placehold.it/175x175" class="img-responsive img-thumbnail" alt="Responsive image"></a></li>
+					    <li><a href="#"><img src="http://placehold.it/175x175" class="img-responsive img-thumbnail" alt="Responsive image"></a></li>
+					    <li><a href="#"><img src="http://placehold.it/175x175" class="img-responsive img-thumbnail" alt="Responsive image"></a></li>
+					  </ul>
 					</div>
 				</div>
+				<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="headingOne">
+					      <h4 class="panel-title">
+					        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+					          Collapsible Group Item #1
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+					      <div class="panel-body">
+					        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					      </div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="headingTwo">
+					      <h4 class="panel-title">
+					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+					          Collapsible Group Item #2
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+					      <div class="panel-body">
+					        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					      </div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="headingThree">
+					      <h4 class="panel-title">
+					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+					          Collapsible Group Item #3
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+					      <div class="panel-body">
+					        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					      </div>
+					    </div>
+					  </div>
+					</div>
 			</div>
 		</div>
 
@@ -148,7 +214,6 @@
 								<li><i class="fa fa-phone" aria-hidden="true"></i> 63-05-83-51</li>
 								<li><i class="fa fa-envelope" aria-hidden="true"></i> jdecks.visible@outlook.com</li>
 							</ul>
-
 							<div id="socialNetworks">
 						<a class="icon-button twitter"><i class="fa fa-twitter twitter-icon" ></i></a>
 						<a class="icon-button facebook"><i class="fa fa-facebook facebook-icon"></i></a>
@@ -163,15 +228,21 @@
 						<div class="newsletter " >
 							<h5>Newsletter</h5>
 							<h3>Regístrate ahora</h3>
-							<p>Ingresa tu email, te notificaremos de nuestros nuevos productos. No te haremos spam. </p>
-
-							 <div class="input-group">
-						      <input type="text" id="form-newsletter" class="form-control" placeholder="Ingresa tu correo">
-						      <span class="input-group-btn">
-						        <button  id="basic-addon" class="btn btn-default" type="button">Go!</button>
-						      </span>
+							<p>Ingresa tu email, te notificaremos de nuestros nuevos productos. No haremos spam. </p>
+							<div class="input-group" >
+						    	<input type="text" class="form-control" id="form-newsletter"  placeholder="Ingresa tu correo">
+						    	<span class="input-group-btn" >
+						        	<button class="btn btn-default" id="basic-addon" type="button">Go!</button>
+						      	</span>
 						    </div><!-- /input-group -->
-
+<!-- 							<div class="input-group"> -->
+<!-- 						    	<input type="text" id="form-newsletter" class="form-control" placeholder="Ingresa tu correo" aria-describedby="basic-addon2"> -->
+<!-- 						    	<span class="input-group-addon" id="basic-addon2">Go!</span> -->
+<!-- <!-- 						    	<span class="input-group-btn"> --> 
+<!-- <!-- 						    		<button  id="basic-addon" class="btn btn-default" type="button">Go!</button> --> 
+<!-- <!-- 						    	</span> -->
+<!-- <!-- 						    	<span class="input-group-addon" id="basic-addon1">@</span> --> 
+<!-- 						    </div>/input-group -->
 						</div>
 					</div>
 				</div>
