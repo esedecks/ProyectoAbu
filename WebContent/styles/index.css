@@ -197,22 +197,46 @@ h1{
 .tshirts .tshirt {
 	font-size: 20px;
 }
-
 										/* 	MAIN SECTION */
-
 #mainContent{
 	border-top: 8px solid #47BAC1;
 	padding-top: 30px;
-
 }
-.sidebar{
-	//border:1px solid black;
 
+#firstPanel{
+	padding:0px; 
 }
+
+.panel-heading{
+	background-color:#47BAC1; 
+}
+.panel-body{
+	margin-top:10px; 
+	padding:0px; 
+	margin-bottom:50px; 
+	
+}
+#panelBodyCategories{
+	padding:10px;	
+}
+#panelBodyCategories a:hover{
+	background-color:white; 
+}
+#panelBodyCategories .collapse{
+	padding:3px;	
+}
+
+.nav li a{
+	padding:0px; 
+}
+.collapseItem{
+	padding:0px; 
+	ist-style-type: none;	
+}
+
 
 .catalogSection{
 	margin-bottom: 50px;
-
 }
 .catalogSection h4{
 	font-family: 'Oxygen', sans-serif;
@@ -233,9 +257,7 @@ h1{
 	margin-bottom: 10px;
 	
 }
-
 										/* 	FOOTER SECTION */
-
 footer{
 	width:100%;
 	background-color: #252525;
@@ -301,7 +323,7 @@ input#form-newsletter{
 #basic-addon{
 	padding: 10px;
 /* 	width: 50px; */
-/* 	height:40px; */
+	height:38px;
 	color: white;
 	font-weight: bold;
 	border:2px solid cyan;
@@ -337,7 +359,7 @@ input#form-newsletter{
 
 
 /*Si la pantalla es max pequeña*/
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
 
 	#rightHeaderSection {
 		text-align: center;
