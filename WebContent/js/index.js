@@ -1,10 +1,10 @@
 $(document).ready(function(){
+    var link = $("#productoCategoriesList > li");
+    link.on("click", function(){
+        var $i = $(this).find("i");
+        console.log($i);
+        $i.toggleClass("fa-plus");
+        $i.toggleClass("fa-minus").css("margin-right","10px");
+    })
 
-	$(window).bind('scroll', function () {
-	    if ($(window).scrollTop() > 50) {
-	        $('.menu').addClass('fixed');
-	    } else {
-	        $('.menu').removeClass('fixed');
-	    }
-	});
 });

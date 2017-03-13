@@ -12,6 +12,9 @@
 <!-- 		  jquery zoom effect -->
 		  <script
 		  src="js/jquery.zoom.min.js"></script>
+		  <!-- 		  jquery file-->
+		  <script
+		  src="js/index.js"></script>
 <!-- 		  bootstrap css min  -->
 		 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
 		  rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
@@ -81,41 +84,93 @@
 				</div>
 			</nav>
 			<div id="subHeader">
-
 				<h1>HEADING </h1>
 			</div>
 		</header>
+
 		<div class="container-fluid" id="mainContent">
 			<div class="row">
 				<div class="col-md-3 sidebar">
 					<div class="panel panel-default" id="firstPanel">
-						<div class="panel-heading" id="panelHeading">CATEGORÍAS DE LOS PRODUCTOS</div>
+						<div class="panel-heading" id="panelHeading">
+							CATEGORÍAS DE LOS PRODUCTOS
+						</div>
 							<div class="panel-body">
-							
-								<div class="collapse navbar-collapse navbar-ex1-collapse nav-bar-side-collapse">
-									<ul class="nav nav-bar side-nav">
-										<li>
-											<a  class ="collapsed" data-toggle="collapse" data-target="#womenList" aria-expended="false">Mujeres <i class="fa fa-plus pull-right"></i></a>
-											<ul id="womenList" class="collapseItem collapse">
+								<div>
+									<ul id="productoCategoriesList">
+										<li class="externalLi" data-toggle="collapse" data-target="#women"><a>Mujeres
+										<i class="fa fa-plus pull-right"></i></a></li>
+											<ul id="women" class="collapse">
 												<li>
-													<a><i class="fa fa-caret-right" aria-hidden="true"></i>Playeras lisas<span class="pull-right">(6)</span></a>
+													<a>
+													<i class="fa fa-caret-right" aria-hidden="true"></i>
+													Playeras lisas <span>(8)</span>
+													</a>
 												</li>
 												<li>
-													<a><i class="fa fa-caret-right" aria-hidden="true"></i>Playeras sublimadas<span class="pull-right">(6)</span></a>
+													<a>
+													<i class="fa fa-caret-right" aria-hidden="true"></i>Playeras sublimadas <span>(16)</span>
+													</a>
 												</li>
 												<li>
-													<a><i class="fa fa-caret-right" aria-hidden="true"></i>Playeras estampadas<span class="pull-right">(6)</span></a>
+													<a>
+													<i class="fa fa-caret-right" aria-hidden="true"></i>Playeras estampadas <span>(26)</span>
+													</a>
 												</li>
 												<li>
-													<a><i class="fa fa-caret-right" aria-hidden="true"></i>Accesorios<span class="pull-right">(6)</span></a>
+													<a>
+													<i class="fa fa-caret-right" aria-hidden="true"></i>Accesorios <span>(26)</span>
+													</a>
 												</li>
 											</ul>
-										</li>
+										<li class="externalLi" data-toggle="collapse" data-target="#men"><a>Hombres
+										<i class="fa fa-plus pull-right"></i></a></li>
+											<ul id="men" class="collapse">
+												<li>
+													<a>
+													<i class="fa fa-caret-right" aria-hidden="true"></i>Playeras lisas <span>(2)</span>
+													</a>
+												</li>
+												<li>
+													<a>
+													<i class="fa fa-caret-right" aria-hidden="true"></i>Playeras sublimadas <span>(36)</span>
+													</a>
+												</li>
+												<li>
+													<a>
+													<i class="fa fa-caret-right" aria-hidden="true"></i>Playeras estampadas <span>(26)</span>
+													</a>
+												</li>
+												<li>
+													<a>
+													<i class="fa fa-caret-right" aria-hidden="true"></i>Accesorios <span>(6)</span>
+													</a>
+												</li>
+											</ul>
 									</ul>
 								</div>
-								
 							</div>
 						</div>
+
+						<div class="panel panel-default" id="firstPanel">
+							<div class="panel-heading" id="panelHeading">
+								FILTRAR POR TAMAÑO
+							</div>
+							<div class="panel-body">
+								<div>
+									<ul id="productoCategoriesList">
+										<li class="externalLi"><a>Chica</a></li>
+										<li class="externalLi" ><a>Mediana</a></li>
+										<li class="externalLi" ><a>Grande</a></li>
+										<li class="externalLi"><a>Extra grande</a></li>
+
+									</ul>
+								</div>
+							</div>
+						</div>
+
+
+
 					</div>
 				<div class="col-md-9 catalogSection" >
 					<h4>Colección destacada</h4>
@@ -196,10 +251,10 @@
 <!-- 							<div class="input-group"> -->
 <!-- 						    	<input type="text" id="form-newsletter" class="form-control" placeholder="Ingresa tu correo" aria-describedby="basic-addon2"> -->
 <!-- 						    	<span class="input-group-addon" id="basic-addon2">Go!</span> -->
-<!-- <!-- 						    	<span class="input-group-btn"> --> 
-<!-- <!-- 						    		<button  id="basic-addon" class="btn btn-default" type="button">Go!</button> --> 
+<!-- <!-- 						    	<span class="input-group-btn"> -->
+<!-- <!-- 						    		<button  id="basic-addon" class="btn btn-default" type="button">Go!</button> -->
 <!-- <!-- 						    	</span> -->
-<!-- <!-- 						    	<span class="input-group-addon" id="basic-addon1">@</span> --> 
+<!-- <!-- 						    	<span class="input-group-addon" id="basic-addon1">@</span> -->
 <!-- 						    </div>/input-group -->
 						</div>
 					</div>
