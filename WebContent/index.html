@@ -10,11 +10,12 @@
 		  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
 		  crossorigin="anonymous"></script>
 <!-- 		  jquery zoom effect -->
-		  <script
-		  src="js/jquery.zoom.min.js"></script>
+		  <script  src="js/jquery.zoom.min.js"></script>
+		  <!-- 		  lazy load images  -->
+		  <script  src ="js/jquery.lazyload.min.js"></script>
 		  <!-- 		  jquery file-->
-		  <script
-		  src="js/index.js"></script>
+		  <script src="js/index.js"></script>
+
 <!-- 		  bootstrap css min  -->
 		 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
 		  rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
@@ -176,19 +177,32 @@
 					<h4>Colección destacada</h4>
 					<div class="items">
 					 <ul class="list-inline">
-					    <li><a href="#"><img src="http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/nXUAAOxyeZNTQCEJ/$_1.JPG?set_id=2" width="175px" height="175px" class="img-responsive img-thumbnail"  class="img-responsive img-thumbnail" alt="Responsive image"></a></li>
-					    <li><a href="#"><img src="http://scene7.zumiez.com/is/image/zumiez/pdp_hero/Imaginary-Foundation-Equilateral-Panel-Black-Sublimation-T-Shirt-_225185.jpg" width="175px" height="175px" class="img-responsive img-thumbnail" alt="Responsive image"></a></li>
-					    <li><a href="#"><img src="https://assets.entrepreneur.com/soy/franquicias/playera_HS.jpg" class="img-responsive img-thumbnail" alt="Responsive image"></a></li>
-					    <li><a href="#"><img src="https://s-media-cache-ak0.pinimg.com/564x/ba/82/37/ba823720294499e39cdd5928d83dbb53.jpg" class="img-responsive img-thumbnail" alt="Responsive image"></a></li>
-					    <li><a href="#"><img src="https://www.brildor.com/blog/wp-content/uploads/2012/04/Camiseta-kukuxumusu.jpg" class="img-responsive img-thumbnail" alt="Responsive image"></a></li>
-					    <li><a href="#"><img src="https://image.spreadshirtmedia.com/image-server/v1/compositions/1001582512/views/1,width=800,height=800,appearanceId=2,version=1485256808/hipster-gorilla-with-glasses-t-shirts-men-s-t-shirt.jpg" class="img-responsive img-thumbnail" alt="Responsive image"></a></li>
-					    <li><a href="#"><img src="http://www.indieground.it/sito/wp-content/uploads/2013/06/bp_tshirtinspiration-21.jpg" class="img-responsive img-thumbnail" alt="Responsive image"></a></li>
-					    <li><a href="#"><img src="https://s-media-cache-ak0.pinimg.com/originals/61/53/72/61537208ed43f39c65b63a166ea073b6.jpg" class="img-responsive img-thumbnail" alt="Responsive image"></a></li>
-					    <li><a href="#"><img src="https://s-media-cache-ak0.pinimg.com/564x/3b/e6/ff/3be6ffaaabad1d9a5faf581b559cbab3.jpg" class="img-responsive img-thumbnail" alt="Responsive image"></a></li>
-					    <li><a href="#"><img src="https://www.impericon.com/media/catalog/product/w/a/warfromaharlotsmouth_hipster_burgundy_lg.jpg" class="img-responsive img-thumbnail" alt="Responsive image"></a></li>
-					    <li><a href="#"><img src="https://img1.etsystatic.com/041/0/9495374/il_570xN.613607073_72rv.jpg" class="img-responsive img-thumbnail" alt="Responsive image"></a></li>
-					    <li><a href="#"><img src="https://s-media-cache-ak0.pinimg.com/236x/f6/d0/70/f6d07038cc016260333463a065e5faa4.jpg" class="img-responsive img-thumbnail" alt="Responsive image"></a></li>
-					    <li><a href="#"><img src="https://image.spreadshirtmedia.com/image-server/v1/compositions/19804195/views/1,width=800,height=800,appearanceId=1,version=1478496810/brainwashed-design-t-shirts-men-s-t-shirt.jpg" class="img-responsive img-thumbnail" alt="Responsive image"></a></li>
+<!-- 					    <li><a href="#"><img  data-original="http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/nXUAAOxyeZNTQCEJ/$_1.JPG?set_id=2" src="http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/nXUAAOxyeZNTQCEJ/$_1.JPG?set_id=2" width="175px" height="175px" class="img-responsive img-thumbnail lazy"  class="img-responsive img-thumbnail" alt="Responsive image"></a></li> -->
+<!-- 					    <li><a href="#"><img  data-original="http://scene7.zumiez.com/is/image/zumiez/pdp_hero/Imaginary-Foundation-Equilateral-Panel-Black-Sublimation-T-Shirt-_225185.jpg" src="http://scene7.zumiez.com/is/image/zumiez/pdp_hero/Imaginary-Foundation-Equilateral-Panel-Black-Sublimation-T-Shirt-_225185.jpg" width="175px" height="175px" class="img-responsive img-thumbnail" alt="Responsive image"></a></li> -->
+<!-- 					    <li><a href="#"><img  data-original="https://assets.entrepreneur.com/soy/franquicias/playera_HS.jpg" src="https://assets.entrepreneur.com/soy/franquicias/playera_HS.jpg" class="img-responsive img-thumbnail lazy" alt="Responsive image"></a></li> -->
+<!-- 					    <li><a href="#"><img  data-original="img/example.jpg" src="https://s-media-cache-ak0.pinimg.com/564x/ba/82/37/ba823720294499e39cdd5928d83dbb53.jpg" class="img-responsive img-thumbnail lazy" alt="Responsive image"></a></li> -->
+<!-- 					    <li><a href="#"><img  data-original="img/example.jpg" src="https://www.brildor.com/blog/wp-content/uploads/2012/04/Camiseta-kukuxumusu.jpg" class="img-responsive img-thumbnail lazy" alt="Responsive image"></a></li> -->
+<!-- 					    <li><a href="#"><img  data-original="img/example.jpg" src="https://image.spreadshirtmedia.com/image-server/v1/compositions/1001582512/views/1,width=800,height=800,appearanceId=2,version=1485256808/hipster-gorilla-with-glasses-t-shirts-men-s-t-shirt.jpg" class="img-responsive img-thumbnail lazy" alt="Responsive image"></a></li> -->
+<!-- 					    <li><a href="#"><img  data-original="img/example.jpg" src="http://www.indieground.it/sito/wp-content/uploads/2013/06/bp_tshirtinspiration-21.jpg" class="img-responsive img-thumbnail lazy"  alt="Responsive image"></a></li> -->
+<!-- 					    <li><a href="#"><img  data-original="img/example.jpg" src="https://s-media-cache-ak0.pinimg.com/originals/61/53/72/61537208ed43f39c65b63a166ea073b6.jpg" class="img-responsive img-thumbnail lazy"  alt="Responsive image"></a></li> -->
+<!-- 					    <li><a href="#"><img  data-original="img/example.jpg" src="https://s-media-cache-ak0.pinimg.com/564x/3b/e6/ff/3be6ffaaabad1d9a5faf581b559cbab3.jpg" class="img-responsive img-thumbnail lazy" alt="Responsive image"></a></li> -->
+<!-- 					    <li><a href="#"><img  data-original="img/example.jpg" src="https://www.impericon.com/media/catalog/product/w/a/warfromaharlotsmouth_hipster_burgundy_lg.jpg" class="img-responsive img-thumbnail lazy" alt="Responsive image"></a></li> -->
+<!-- 					    <li><a href="#"><img  data-original="img/example.jpg" src="https://img1.etsystatic.com/041/0/9495374/il_570xN.613607073_72rv.jpg" class="img-responsive img-thumbnail lazy" alt="Responsive image"></a></li> -->
+<!-- 					    <li><a href="#"><img  data-original="img/example.jpg" src="https://s-media-cache-ak0.pinimg.com/236x/f6/d0/70/f6d07038cc016260333463a065e5faa4.jpg" class="img-responsive img-thumbnail lazy" alt="Responsive image"></a></li> -->
+<!-- 					    <li><a href="#"><img  data-original="img/example.jpg" src="https://image.spreadshirtmedia.com/image-server/v1/compositions/19804195/views/1,width=800,height=800,appearanceId=1,version=1478496810/brainwashed-design-t-shirts-men-s-t-shirt.jpg" class="img-responsive img-thumbnail lazy" alt="Responsive image"></a></li> -->
+					  	<li><a href="#"><img  data-original="http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/nXUAAOxyeZNTQCEJ/$_1.JPG?set_id=2" src="http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/nXUAAOxyeZNTQCEJ/$_1.JPG?set_id=2" class="img-responsive img-thumbnail lazy"   alt="Responsive image"></a></li>
+					    <li><a href="#"><img  data-original="http://scene7.zumiez.com/is/image/zumiez/pdp_hero/Imaginary-Foundation-Equilateral-Panel-Black-Sublimation-T-Shirt-_225185.jpg"   src="http://scene7.zumiez.com/is/image/zumiez/pdp_hero/Imaginary-Foundation-Equilateral-Panel-Black-Sublimation-T-Shirt-_225185.jpg" class="img-responsive img-thumbnail lazy" alt="Responsive image"></a></li>
+					    <li><a href="#"><img  data-original="https://assets.entrepreneur.com/soy/franquicias/playera_HS.jpg" src="https://assets.entrepreneur.com/soy/franquicias/playera_HS.jpg"  class="img-responsive img-thumbnail lazy" alt="Responsive image"></a></li>
+					    <li><a href="#"><img  data-original="https://s-media-cache-ak0.pinimg.com/564x/ba/82/37/ba823720294499e39cdd5928d83dbb53.jpg" src ="https://s-media-cache-ak0.pinimg.com/564x/ba/82/37/ba823720294499e39cdd5928d83dbb53.jpg" class="img-responsive img-thumbnail lazy" alt="Responsive image"></a></li>
+					    <li><a href="#"><img  data-original="https://www.brildor.com/blog/wp-content/uploads/2012/04/Camiseta-kukuxumusu.jpg" src="https://www.brildor.com/blog/wp-content/uploads/2012/04/Camiseta-kukuxumusu.jpg" class="img-responsive img-thumbnail lazy" alt="Responsive image"></a></li>
+					    <li><a href="#"><img  data-original="https://image.spreadshirtmedia.com/image-server/v1/compositions/1001582512/views/1,width=800,height=800,appearanceId=2,version=1485256808/hipster-gorilla-with-glasses-t-shirts-men-s-t-shirt.jpg" src="https://image.spreadshirtmedia.com/image-server/v1/compositions/1001582512/views/1,width=800,height=800,appearanceId=2,version=1485256808/hipster-gorilla-with-glasses-t-shirts-men-s-t-shirt.jpg" class="img-responsive img-thumbnail lazy" alt="Responsive image"></a></li>
+					    <li><a href="#"><img  data-original="http://www.indieground.it/sito/wp-content/uploads/2013/06/bp_tshirtinspiration-21.jpg" src="http://www.indieground.it/sito/wp-content/uploads/2013/06/bp_tshirtinspiration-21.jpg" class="img-responsive img-thumbnail lazy"  alt="Responsive image"></a></li>
+					    <li><a href="#"><img  data-original="https://s-media-cache-ak0.pinimg.com/originals/61/53/72/61537208ed43f39c65b63a166ea073b6.jpg" src="https://s-media-cache-ak0.pinimg.com/originals/61/53/72/61537208ed43f39c65b63a166ea073b6.jpg" class="img-responsive img-thumbnail lazy"  alt="Responsive image"></a></li>
+					    <li><a href="#"><img  data-original="https://s-media-cache-ak0.pinimg.com/564x/3b/e6/ff/3be6ffaaabad1d9a5faf581b559cbab3.jpg" src="https://s-media-cache-ak0.pinimg.com/564x/3b/e6/ff/3be6ffaaabad1d9a5faf581b559cbab3.jpg" class="img-responsive img-thumbnail lazy" alt="Responsive image"></a></li>
+					    <li><a href="#"><img  data-original="https://www.impericon.com/media/catalog/product/w/a/warfromaharlotsmouth_hipster_burgundy_lg.jpg" src="https://www.impericon.com/media/catalog/product/w/a/warfromaharlotsmouth_hipster_burgundy_lg.jpg" class="img-responsive img-thumbnail lazy" alt="Responsive image"></a></li>
+					    <li><a href="#"><img  data-original="https://img1.etsystatic.com/041/0/9495374/il_570xN.613607073_72rv.jpg" src="https://img1.etsystatic.com/041/0/9495374/il_570xN.613607073_72rv.jpg" class="img-responsive img-thumbnail lazy" alt="Responsive image"></a></li>
+					    <li><a href="#"><img  data-original="https://s-media-cache-ak0.pinimg.com/236x/f6/d0/70/f6d07038cc016260333463a065e5faa4.jpg" src="https://s-media-cache-ak0.pinimg.com/236x/f6/d0/70/f6d07038cc016260333463a065e5faa4.jpg" class="img-responsive img-thumbnail lazy" alt="Responsive image"></a></li>
+					    <li><a href="#"><img  data-original="https://image.spreadshirtmedia.com/image-server/v1/compositions/19804195/views/1,width=800,height=800,appearanceId=1,version=1478496810/brainwashed-design-t-shirts-men-s-t-shirt.jpg" src="https://image.spreadshirtmedia.com/image-server/v1/compositions/19804195/views/1,width=800,height=800,appearanceId=1,version=1478496810/brainwashed-design-t-shirts-men-s-t-shirt.jpg" class="img-responsive img-thumbnail lazy" alt="Responsive image"></a></li>
 					  </ul>
 					</div>
 				</div>
