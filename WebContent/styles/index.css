@@ -257,6 +257,7 @@ i.fa.fa-caret-right{
 .externalLi a{
 	text-decoration: none;
 	color: black;
+	display: block;
 }
 .externalLi a:link{
 	text-decoration: none;
@@ -298,6 +299,7 @@ i.fa.fa-caret-right{
 	text-decoration: none;
 	color:gray;
 	cursor: pointer;
+	display: block;
 }
 #women  > li >a:link{
 	text-decoration: none;
@@ -312,6 +314,7 @@ i.fa.fa-caret-right{
 	text-decoration: none;
 	color: #47BAC1;
 }
+
 #women  >li > a:active{
 	text-decoration: none;
 }
@@ -329,6 +332,7 @@ i.fa.fa-caret-right{
 	text-decoration: none;
 	color:gray;
 	cursor: pointer;
+
 }
 #men  > li >a:link{
 	text-decoration: none;
@@ -346,12 +350,6 @@ i.fa.fa-caret-right{
 #men  >li > a:active{
 	text-decoration: none;
 }
-
-
-
-
-
-
 
 
 .catalogSection{
