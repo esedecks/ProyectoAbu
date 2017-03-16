@@ -11,5 +11,10 @@ $(document).ready(function(){
     .css('display', 'block')
     .parent()
     .zoom();
-    $("img.lazy").lazyload();
+//    $("img.lazy").lazyload();
+    $("img.lazy").lazyload({
+        effect: "fadeIn"
+    });
+    
+    
 });
