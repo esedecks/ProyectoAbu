@@ -1,24 +1,63 @@
 /* 	HEADER SECTION */
+html, body { height: 100%; width: 100%; margin: 0; }
 .row{
 	margin:  0px;
-
 }
 #mainContainer{
 	padding:0px;
 	margin-left: 0px;
 	margin-right: 0px;
+	height: 100%; width: 100%; margin: 0; 
 }
 #header{
-	background-color:
 	background-color: #252525;
 	width: 100%;
 }
-#header .navbar{
+#header {
 	margin-bottom: 0px;
 	min-height: 0px;
 	background-color: #252525;
 	width: 100%;
 	border-color: #252525;
+}
+
+.hero-image {
+    /* The image used */
+    background-image: url("../images/photographer.jpg");
+
+    /* Set a specific height */
+    height: 400px;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.affix {
+	top: 0;
+    width: 100%;
+    z-index:1; 
+}
+
+.affix + .container-fluid {
+	padding-top: 70px;
+}
+
+.navbar{
+	background-color:  #252525; 
+	border-radius:0px; 
+	opacity: 0.9;
 }
 #address{
 	/*alinear el contenido de address al centro*/
@@ -54,19 +93,19 @@
 /*  	background-attachment: fixed; */
 }
 
-h1{
-	//font-family: 'Indie Flower', cursive;
-	font-family: 'Oswald', sans-serif;
-	text-shadow: 3px 3px gray;
-   // font-family: 'Rock Salt', cursive;
-	font-size: 4.3em;
-	color:black;
-	display: table-cell;
-	vertical-align: middle;
-	text-align: center;
-	font-weight: bold;
-	color: black;
-}
+/* h1{ */
+/* 	//font-family: 'Indie Flower', cursive; */
+/* 	font-family: 'Oswald', sans-serif; */
+/* 	text-shadow: 3px 3px gray; */
+/*    // font-family: 'Rock Salt', cursive; */
+/* 	font-size: 4.3em; */
+/* 	color:black; */
+/* 	display: table-cell; */
+/* 	vertical-align: middle; */
+/* 	text-align: center; */
+/* 	font-weight: bold; */
+/* 	color: black; */
+/* } */
 
 #socialNetworks   > .icon-button {
 	display:inline-block;
@@ -482,8 +521,6 @@ input#form-newsletter{
 	font-family: 'Oxygen', sans-serif;
 /* 	text-align:center;  */
 }
-
-
 /*Si la pantalla es max pequeña*/
 @media screen and (max-width: 900px) {
 
@@ -507,6 +544,11 @@ input#form-newsletter{
 	transform: scale(1);
 	transition: all 700ms;
 }
-
+/****************
+	STYLES FOR MODALS
+****************/
+.container-tabs{
+	border: 1px solid #ccc; 
+}
 
 
