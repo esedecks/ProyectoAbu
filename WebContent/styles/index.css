@@ -7,7 +7,7 @@ html, body { height: 100%; width: 100%; margin: 0; }
 	padding:0px;
 	margin-left: 0px;
 	margin-right: 0px;
-	height: 100%; width: 100%; margin: 0; 
+	height: 100%; width: 100%; margin: 0;
 }
 #header{
 	background-color: #252525;
@@ -24,7 +24,6 @@ html, body { height: 100%; width: 100%; margin: 0; }
 .hero-image {
     /* The image used */
     background-image: url("../images/photographer.jpg");
-
     /* Set a specific height */
     height: 400px;
     /* Position and center the image to scale nicely on all screens */
@@ -42,12 +41,13 @@ html, body { height: 100%; width: 100%; margin: 0; }
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    font-size: 30px;
 }
 
 .affix {
 	top: 0;
     width: 100%;
-    z-index:1; 
+    z-index:1;
 }
 
 .affix + .container-fluid {
@@ -55,8 +55,8 @@ html, body { height: 100%; width: 100%; margin: 0; }
 }
 
 .navbar{
-	background-color:  #252525; 
-	border-radius:0px; 
+	background-color:  #252525;
+	border-radius:0px;
 	opacity: 0.9;
 }
 #address{
@@ -548,7 +548,7 @@ input#form-newsletter{
 	STYLES FOR MODALS
 ****************/
 .container-tabs{
-	border: 1px solid #ccc; 
+	border: 1px solid #ccc;
 }
 
 
