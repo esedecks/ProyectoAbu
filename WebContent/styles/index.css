@@ -267,18 +267,18 @@ html, body { height: 100%; width: 100%; margin: 0; }
 	padding-top: 15px;
 	padding-bottom: 30px;
 }
-#productoCategoriesList{
+.productoCategoriesList{
 	list-style: none;
 	padding-left: 0px;
 	margin-left: 20px;
 }
-#productoCategoriesList ul{
+.productoCategoriesList ul{
 	list-style: none;
 	padding-left: 0px;
 	margin-left: 5px;
 
 }
-#productoCategoriesList >.externalLi{
+.productoCategoriesList >.externalLi{
 	font-family: 'Oxygen', sans-serif;
 	font-size: 15px;
 	font-weight: 400;
