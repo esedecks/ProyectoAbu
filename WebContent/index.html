@@ -12,7 +12,7 @@
 		  <script  src="js/jquery.zoom.min.js"></script>
 		  <!-- 		  lazy load images  -->
 		  <script  src ="js/jquery.lazyload.min.js"></script>
-		  
+
 <!-- 		index jquery code -->
 		  <script src="js/index.js"></script>
 <!-- 			velocity for effects -->
@@ -21,9 +21,9 @@
 		<script src ="js/jquery.animate.min.js"></script>
 <!-- 		velocity ui -->
 		<script src ="js/jquery.velocity.ui.min.js"></script>
-		
 
-		
+
+
 <!-- 		  bootstrap css min  -->
 		 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
 		  rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
@@ -33,7 +33,7 @@
 		  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <!-- 		  animate css -->
 		  <link rel="stylesheet" type="text/css" href="styles/animate.min.css">
-		  
+
 <!-- 		index css -->
 		<link rel="stylesheet" type="text/css" href="styles/index.css">
 <!-- 		font awesome -->
@@ -52,63 +52,46 @@
 
 </head>
 <body>
-<!-- 	<div  style="heigth:700px"> -->
-<!-- 		<a href="#myModal25" role="button" class="btn btn-default" data-toggle="modal">perspectiveLeftIn</a> -->
-<!-- 		    <div id="myModal25" class="modal " data-easein="perspectiveLeftIn" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> -->
-<!-- 		      <div class="modal-dialog"> -->
-<!-- 		        <div class="modal-content"> -->
-<!-- 		          <div class="modal-header"> -->
-<!-- 		            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button> -->
-<!-- 		            <h4 class="modal-title">Modal header</h4> -->
-<!-- 		          </div> -->
-<!-- 		          <div class="modal-body"> -->
-<!-- 		            <p>One fine body…</p> -->
-<!-- 		          </div> -->
-<!-- 		          <div class="modal-footer"> -->
-<!-- 		            <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button> -->
-<!-- 		          </div> -->
-<!-- 		        </div> -->
-<!-- 		      </div> -->
-<!-- 		    </div> -->
-		
-<!-- 	</div> -->
+
 	<div class="container-fluid" id="mainContainer">
 		<header id="header">
-				    <div id ="headerRow">
-						<div class="row"  >
-							<div class="col-md-2">
-								<div class="tshirts">
+		    <div id ="headerRow">
+				<div class="row"  >
+					<div class="col-md-2">
+						<div class="tshirts">
 
-								</div>
-							</div>
-							<div class="col-md-7" >
-							</div>
-							<div class="col-md-3" id="rightHeaderSection">
-								<div id="socialNetworks" class="center-block">
-									<a class="icon-button twitter"><i class="fa fa-twitter twitter-icon" ></i></a>
-									<a class="icon-button facebook"><i class="fa fa-facebook facebook-icon"></i></a>
-									<a class="icon-button youtube"><i class="fa fa-youtube-play youtube-icon"></i></a>
-									<a class="icon-button instagram"><i class="fa fa-instagram instragram-icon"></i></a>
-									<a class="icon-button pinterest"><i class="fa fa-pinterest pinterest-icon"></i></a>
-								</div>
-							</div>
 						</div>
 					</div>
+					<div class="col-md-7" >
+					</div>
+					<div class="col-md-3" id="rightHeaderSection">
+						<div id="socialNetworks" class="center-block">
+							<a class="icon-button twitter"><i class="fa fa-twitter twitter-icon" ></i></a>
+							<a class="icon-button facebook"><i class="fa fa-facebook facebook-icon"></i></a>
+							<a class="icon-button youtube"><i class="fa fa-youtube-play youtube-icon"></i></a>
+							<a class="icon-button instagram"><i class="fa fa-instagram instragram-icon"></i></a>
+							<a class="icon-button pinterest"><i class="fa fa-pinterest pinterest-icon"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
 			<div class="hero-image">
 				<div class="hero-text">
 					<h1>HEDING</h1>
 					<p>A LITTLE TEXT</p>
 				</div>
 			</div>
+			<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="440">
+			  <ul class="nav navbar-nav">
+			    <li class="active"><a href="#">Basic Topnav</a></li>
+			    <li><a href="#">Page 1</a></li>
+			    <li><a href="#">Page 2</a></li>
+			    <li><a href="#">Page 3</a></li>
+			  </ul>
+			</nav>
 		</header>
-		<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="414">
-		  <ul class="nav navbar-nav">
-		    <li class="active"><a href="#">Basic Topnav</a></li>
-		    <li><a href="#">Page 1</a></li>
-		    <li><a href="#">Page 2</a></li>
-		    <li><a href="#">Page 3</a></li>
-		  </ul>
-		</nav>
+
 		<div class="container-fluid" id="mainContent">
 			<div class="row">
 				<div class="col-md-3 sidebar">
@@ -178,15 +161,34 @@
 
 						<div class="panel panel-default" id="firstPanel">
 							<div class="panel-heading" id="panelHeading">
+								FILTRAR POR COLOR
+							</div>
+							<div class="panel-body">
+								<div>
+									<ul class="productoCategoriesList">
+										<li class="externalLi"><a>Negro  <span>(36)</span></a></li>
+										<li class="externalLi"><a>Blanco  <span>(4)</span></a></li>
+										<li class="externalLi"><a>Rojo  <span>(16)</span></a></li>
+										<li class="externalLi"><a>Azul  <span>(3)</span></a></li>
+										<li class="externalLi"><a>Naranja <span>(2)</span></a></li>
+
+									</ul>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="panel panel-default" id="firstPanel">
+							<div class="panel-heading" id="panelHeading">
 								FILTRAR POR TAMAÑO
 							</div>
 							<div class="panel-body">
 								<div>
 									<ul class="productoCategoriesList">
-										<li class="externalLi"><a>Chica</a></li>
-										<li class="externalLi"><a>Mediana</a></li>
-										<li class="externalLi"><a>Grande</a></li>
-										<li class="externalLi"><a>Extra grande</a></li>
+										<li class="externalLi"><a>Chica  <span>(12)</span></a></li>
+										<li class="externalLi"><a>Mediana  <span>(2)</span></a></li>
+										<li class="externalLi"><a>Grande  <span>(3)</span></a></li>
+										<li class="externalLi"><a>Extra grande  <span>(3)</span></a></li>
 
 									</ul>
 								</div>
@@ -280,7 +282,7 @@
 				</div>
 			</div>
 		</footer>
-		
+
 		<div id="modal" class="modal fade" role="dialog">
 		<div class="modal-dialog  modal-lg">
 			<div class="modal-content">
@@ -331,6 +333,6 @@
 	</div>
 	</div><!-- end container fluid -->
 
-	
+
 </body>
 </html>
