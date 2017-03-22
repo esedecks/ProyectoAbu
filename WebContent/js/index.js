@@ -37,7 +37,7 @@ $(document).ready(function(){
     })
 
 	$(".modal").on("show.bs.modal", function(){
-		$(this).addClass('animated flipInY');
+		$(this).addClass('animated fadeInDown');
 	});
 
 

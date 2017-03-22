@@ -59,6 +59,8 @@ html, body { height: 100%; width: 100%; margin: 0; }
 	border-radius:0px;
 	opacity: 0.9;
 }
+
+
 #address{
 	/*alinear el contenido de address al centro*/
 	text-align:center;
@@ -237,10 +239,7 @@ html, body { height: 100%; width: 100%; margin: 0; }
 	font-size: 20px;
 }
 										/* 	MAIN SECTION */
-#mainContent{
-	border-top: 8px solid #47BAC1;
 
-}
 #mainContent > .row{
 	margin-top: 100px;
 
