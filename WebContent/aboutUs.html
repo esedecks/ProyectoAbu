@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovaciones</title>
+<!--        jquery -->
+        <script  src="https://code.jquery.com/jquery-3.1.1.min.js"
+                  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+                  crossorigin="anonymous"></script>
+<!--          jquery zoom effect -->
+          <script  src="js/jquery.zoom.min.js"></script>
+          <!--        lazy load images  -->
+          <script  src ="js/jquery.lazyload.min.js"></script>
+
+<!--        index jquery code -->
+          <script src="js/index.js"></script>
+<!--            velocity for effects -->
+<!--        <script src ="js/jquery.velocity.min.js"></script> -->
+<!--        animate js       -->
+        <script src ="js/animate.min.js"></script>
+
+<!--          bootstrap css min  -->
+         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+<!--          bootstrap.min.js -->
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+          integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!--          animate css -->
+          <link rel="stylesheet" type="text/css" href="styles/animate.min.css">
+
+<!--        index css -->
+        <link rel="stylesheet" type="text/css" href="styles/index.css">
+<!--        font awesome -->
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<!--        ionicons : http://ionicframework.com/docs/v2/api/components/icon/Icon/-->
+        <link rel="stylesheet" type="text/css" href="styles/ionicons.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container-fluid" id="mainContainer">
+        <header id="header">
+            <div id ="headerRow">
+                <div class="row"  >
+                    <div class="col-md-1"></div>
+                    <div class="col-md-3" id="rightHeaderSection">
+                        <div id="socialNetworks" class="center-block">
+                            <a class="icon-button twitter"><i class="fa fa-twitter twitter-icon" ></i></a>
+                            <a class="icon-button facebook"><i class="fa fa-facebook facebook-icon"></i></a>
+                            <a class="icon-button youtube"><i class="fa fa-youtube-play youtube-icon"></i></a>
+                            <a class="icon-button instagram"><i class="fa fa-instagram instragram-icon"></i></a>
+                            <a class="icon-button pinterest"><i class="fa fa-pinterest pinterest-icon"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6" >
+                        <ul class="list-inline" style="color:white">
+                          <li>jdecks.visible@outlook.com</li>
+                          <li>55-23-09-39-43</li>
+                          <li></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2" >
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="hero-text">
+                    <h1>HEDING</h1>
+                    <p>A LITTLE TEXT</p>
+                </div>
+            </div>
+
+            <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="440">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">
+                            <img alt="Brand" src="http://themes.iamabdus.com/bigbag/1.1/img/logo.png">
+                        </a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#"><i class="fa fa-home" aria-hidden="true"></i> Inicio</a></li>
+                        <li><a href="#"><i class="fa fa-male" aria-hidden="true"></i> Hombre</a></li>
+                        <li><a href="#"><i class="fa fa-female" aria-hidden="true"></i> Mujer</a></li>
+                    </ul>
+
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropwdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span><i class="fa fa-users" aria-hidden="true"></i></span> Acerca de nosostros<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">¿Quiénes somos?</a></li>
+                                <li><a href="#">Nuestra misión</a></li>
+                                <li><a href="#">Nuestra visión</a></li>
+                                <li><a href="#">Nuestros valores</a></li>
+                              </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="container-fluid" id="mainContent">
+            <div class="row">
+                <div class="col-md-3 sidebar">
+                    <div class="panel panel-default" id="firstPanel">
+                        <div class="panel-heading" id="panelHeading">
+                            CATEGORÍAS DE LOS PRODUCTOS
+                        </div>
+                            <div class="panel-body">
+                                <div>
+                                    <ul class="productoCategoriesList">
+                                        <li class="externalLi" data-toggle="collapse" data-target="#women"><a >Mujeres
+                                        <i class="fa fa-plus pull-right"></i></a>
+                                        </li>
+                                            <ul id="women" class="collapse">
+                                                <li>
+                                                    <a>
+                                                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                                    Playeras lisas <span>(8)</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a>
+                                                    <i class="fa fa-caret-right" aria-hidden="true"></i>Playeras sublimadas <span>(16)</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a>
+                                                    <i class="fa fa-caret-right" aria-hidden="true"></i>Playeras estampadas <span>(26)</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a>
+                                                    <i class="fa fa-caret-right" aria-hidden="true"></i>Accesorios <span>(26)</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+
+                                        <li class="externalLi" data-toggle="collapse" data-target="#men"><a>Hombres
+                                            <i class="fa fa-plus pull-right"></i></a>
+                                        </li>
+                                            <ul id="men" class="collapse">
+                                                <li>
+                                                    <a>
+                                                    <i class="fa fa-caret-right" aria-hidden="true"></i>Playeras lisas <span>(2)</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a>
+                                                    <i class="fa fa-caret-right" aria-hidden="true"></i>Playeras sublimadas <span>(36)</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a>
+                                                    <i class="fa fa-caret-right" aria-hidden="true"></i>Playeras estampadas <span>(26)</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a>
+                                                    <i class="fa fa-caret-right" aria-hidden="true"></i>Accesorios <span>(6)</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default" id="firstPanel">
+                            <div class="panel-heading" id="panelHeading">
+                                FILTRAR POR COLOR
+                            </div>
+                            <div class="panel-body">
+                                <div>
+                                    <ul class="productoCategoriesList">
+                                        <li class="externalLi"><a>Negro  <span>(36)</span></a></li>
+                                        <li class="externalLi"><a>Blanco  <span>(4)</span></a></li>
+                                        <li class="externalLi"><a>Rojo  <span>(16)</span></a></li>
+                                        <li class="externalLi"><a>Azul  <span>(3)</span></a></li>
+                                        <li class="externalLi"><a>Naranja <span>(2)</span></a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="panel panel-default" id="firstPanel">
+                            <div class="panel-heading" id="panelHeading">
+                                FILTRAR POR TAMAÑO
+                            </div>
+                            <div class="panel-body">
+                                <div>
+                                    <ul class="productoCategoriesList">
+                                        <li class="externalLi"><a>Chica  <span>(12)</span></a></li>
+                                        <li class="externalLi"><a>Mediana  <span>(2)</span></a></li>
+                                        <li class="externalLi"><a>Grande  <span>(3)</span></a></li>
+                                        <li class="externalLi"><a>Extra grande  <span>(3)</span></a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                <div class="col-md-9 catalogSection" >
+                    <h4>Colección destacada</h4>
+                    <div class="items">
+                     <ul class="list-inline">
+                        <li><a href="#"><img  data-original="http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/nXUAAOxyeZNTQCEJ/$_1.JPG?set_id=2" src="http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/nXUAAOxyeZNTQCEJ/$_1.JPG?set_id=2" class="img-responsive img-thumbnail lazy"   alt="Responsive image"></a></li>
+                        <li><a href="#"><img  data-original="http://scene7.zumiez.com/is/image/zumiez/pdp_hero/Imaginary-Foundation-Equilateral-Panel-Black-Sublimation-T-Shirt-_225185.jpg"   src="http://scene7.zumiez.com/is/image/zumiez/pdp_hero/Imaginary-Foundation-Equilateral-Panel-Black-Sublimation-T-Shirt-_225185.jpg" class="img-responsive img-thumbnail lazy" alt="Responsive image"></a></li>
+                        <li><a href="#"><img  data-original="https://assets.entrepreneur.com/soy/franquicias/playera_HS.jpg" src="https://assets.entrepreneur.com/soy/franquicias/playera_HS.jpg"  class="img-responsive img-thumbnail lazy" alt="Responsive image"></a></li>
+                        <li><a href="#"><img  data-original="https://s-media-cache-ak0.pinimg.com/564x/ba/82/37/ba823720294499e39cdd5928d83dbb53.jpg" src ="https://s-media-cache-ak0.pinimg.com/564x/ba/82/37/ba823720294499e39cdd5928d83dbb53.jpg" class="img-responsive img-thumbnail lazy" alt="Responsive image"></a></li>
+                        <li><a href="#"><img  data-original="https://www.brildor.com/blog/wp-content/uploads/2012/04/Camiseta-kukuxumusu.jpg" src="https://www.brildor.com/blog/wp-content/uploads/2012/04/Camiseta-kukuxumusu.jpg" class="img-responsive img-thumbnail lazy" alt="Responsive image"></a></li>
+                        <li><a href="#"><img  data-original="https://image.spreadshirtmedia.com/image-server/v1/compositions/1001582512/views/1,width=800,height=800,appearanceId=2,version=1485256808/hipster-gorilla-with-glasses-t-shirts-men-s-t-shirt.jpg" src="https://image.spreadshirtmedia.com/image-server/v1/compositions/1001582512/views/1,width=800,height=800,appearanceId=2,version=1485256808/hipster-gorilla-with-glasses-t-shirts-men-s-t-shirt.jpg" class="img-responsive img-thumbnail lazy" alt="Responsive image"></a></li>
+                        <li><a href="#"><img  data-original="http://www.indieground.it/sito/wp-content/uploads/2013/06/bp_tshirtinspiration-21.jpg" src="http://www.indieground.it/sito/wp-content/uploads/2013/06/bp_tshirtinspiration-21.jpg" class="img-responsive img-thumbnail lazy"  alt="Responsive image"></a></li>
+                        <li><a href="#"><img  data-original="https://s-media-cache-ak0.pinimg.com/originals/61/53/72/61537208ed43f39c65b63a166ea073b6.jpg" src="https://s-media-cache-ak0.pinimg.com/originals/61/53/72/61537208ed43f39c65b63a166ea073b6.jpg" class="img-responsive img-thumbnail lazy"  alt="Responsive image"></a></li>
+                        <li><a href="#"><img  data-original="https://s-media-cache-ak0.pinimg.com/564x/3b/e6/ff/3be6ffaaabad1d9a5faf581b559cbab3.jpg" src="https://s-media-cache-ak0.pinimg.com/564x/3b/e6/ff/3be6ffaaabad1d9a5faf581b559cbab3.jpg" class="img-responsive img-thumbnail lazy" alt="Responsive image"></a></li>
+                        <li><a href="#"><img  data-original="https://www.impericon.com/media/catalog/product/w/a/warfromaharlotsmouth_hipster_burgundy_lg.jpg" src="https://www.impericon.com/media/catalog/product/w/a/warfromaharlotsmouth_hipster_burgundy_lg.jpg" class="img-responsive img-thumbnail lazy" alt="Responsive image"></a></li>
+                        <li><a href="#"><img  data-original="https://img1.etsystatic.com/041/0/9495374/il_570xN.613607073_72rv.jpg" src="https://img1.etsystatic.com/041/0/9495374/il_570xN.613607073_72rv.jpg" class="img-responsive img-thumbnail lazy" alt="Responsive image"></a></li>
+                        <li><a href="#"><img  data-original="https://s-media-cache-ak0.pinimg.com/236x/f6/d0/70/f6d07038cc016260333463a065e5faa4.jpg" src="https://s-media-cache-ak0.pinimg.com/236x/f6/d0/70/f6d07038cc016260333463a065e5faa4.jpg" class="img-responsive img-thumbnail lazy" alt="Responsive image"></a></li>
+                        <li><a href="#"><img  data-original="https://image.spreadshirtmedia.com/image-server/v1/compositions/19804195/views/1,width=800,height=800,appearanceId=1,version=1478496810/brainwashed-design-t-shirts-men-s-t-shirt.jpg" src="https://image.spreadshirtmedia.com/image-server/v1/compositions/19804195/views/1,width=800,height=800,appearanceId=1,version=1478496810/brainwashed-design-t-shirts-men-s-t-shirt.jpg" class="img-responsive img-thumbnail lazy" alt="Responsive image"></a></li>
+                        <li><a href="#"><img  data-original="http://fancy-tshirts.com/wp-content/uploads/2012/12/Marianna-white-custom-tee-design-by-Ruben-Ireland.jpg" src="http://fancy-tshirts.com/wp-content/uploads/2012/12/Marianna-white-custom-tee-design-by-Ruben-Ireland.jpg" class="img-responsive img-thumbnail lazy" alt="Responsive image"></a></li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+        </div><!-- end mainContainer -->
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3" >
+                        <div class="footerLink" >
+                            <h5>Acerca de nostros </h5>
+                            <ul class="list-unstyled">
+                                <li><a>¿Quiénes somos?</a></li>
+                                <li><a>Misión</a></li>
+                                <li><a>Visión</a></li>
+                                <li><a>Nuestros valores</a></li>
+                            </ul>
+                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal">Abrir modal </button>
+                        </div>
+                    </div>
+                    <div class="col-md-3" >
+                        <div class="footerLink" >
+                            <h5>Nuestros productos </h5>
+                            <ul class="list-unstyled">
+                                <li><a>Playeras lisas</a></li>
+                                <li><a>Playeras sublimadas</a></li>
+                                <li><a>Playeras estampadas</a></li>
+                                <li><a>Servicios adicionales de sublimado y estampado</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3" >
+                    <div class="footerAddress" >
+                            <h5>Pónte en contacto</h5>
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-address-book" aria-hidden="true"></i> 2da cda de Lago Bolsena #79.</li>
+                                <li><i class="fa fa-phone" aria-hidden="true"></i> 63-05-83-51</li>
+                                <li><i class="fa fa-envelope" aria-hidden="true"></i> jdecks.visible@outlook.com</li>
+                            </ul>
+                            <div id="socialNetworks">
+                        <a class="icon-button twitter"><i class="fa fa-twitter twitter-icon" ></i></a>
+                        <a class="icon-button facebook"><i class="fa fa-facebook facebook-icon"></i></a>
+                        <a class="icon-button youtube"><i class="fa fa-youtube-play youtube-icon"></i></a>
+                        <a class="icon-button instagram"><i class="fa fa-instagram instragram-icon"></i></a>
+                        <a class="icon-button pinterest"><i class="fa fa-pinterest pinterest-icon"></i></a>
+                    </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="newsletter " >
+                            <h5>Newsletter</h5>
+                            <h3>Regístrate ahora</h3>
+                            <p>Ingresa tu email, te notificaremos de nuestros nuevos productos. No haremos spam. </p>
+                            <div class="input-group" >
+                                <input type="text" class="form-control" id="form-newsletter"  placeholder="Ingresa tu correo">
+                                <span class="input-group-btn" >
+                                    <button class="btn btn-default" id="basic-addon" type="button">Go!</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div id="modal" class="modal fade" role="dialog">
+        <div class="modal-dialog  modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="http://placehold.it/500x600" class="img-responsive img-thumbnail" alt="Responsive image">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="container-tabs">
+                              <ul class="nav nav-tabs">
+                                <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+                                <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
+                                <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
+                                <li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
+                              </ul>
+
+                              <div class="tab-content">
+                                <div id="home" class="tab-pane fade in active">
+                                  <h3>HOME</h3>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                                <div id="menu1" class="tab-pane fade">
+                                  <h3>Menu 1</h3>
+                                  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                </div>
+                                <div id="menu2" class="tab-pane fade">
+                                  <h3>Menu 2</h3>
+                                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                                </div>
+                                <div id="menu3" class="tab-pane fade">
+                                  <h3>Menu 3</h3>
+                                  <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <p>Footer modal</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div><!-- end container fluid -->
+
+
+</body>
+</html>

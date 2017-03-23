@@ -9,7 +9,7 @@ function toggleClassProductCategoryList(){
 }
 /*This function lets handle zoom for all the image which implements*/
 function handleImageZoom(){
-	$('img')
+	$('.zoomImage')
     .wrap('<span style="display:inline-block"></span>')
     .css('display', 'block')
     .parent()
