@@ -39,6 +39,23 @@ $(document).ready(function(){
 	$(".modal").on("show.bs.modal", function(){
 		$(this).addClass('animated fadeInDown');
 	});
+    setTimeout(function(){
+         $heroText = $(".hero-text");
+        $heroText
+            .find("h1")
+            .text("INNOVACIONES ABURELÉ")
+            .addClass("animated fadeInDown")
+            .one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+                $heroText.find("p").text("Vestir increíble").addClass("animated fadeInDown");
+
+            });;
+
+
+    }, 1500)
+
+
+
+
 
 
 

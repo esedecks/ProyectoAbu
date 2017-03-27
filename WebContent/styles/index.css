@@ -58,6 +58,7 @@ html, body { height: 100%; width: 100%; margin: 0; }
 	background-color:  #252525;
 	border-radius:0px;
 	opacity: 0.9;
+	box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
 }
 
 
@@ -533,9 +534,10 @@ input#form-newsletter{
 	font-family: 'Oxygen', sans-serif;
 /* 	text-align:center;  */
 }
-/*Si la pantalla es max pequeña*/
-@media screen and (max-width: 900px) {
 
+
+/*Si la pantalla es max pequeña*/
+@media screen and (max-width: 1046px) {
 	#rightHeaderSection {
 		text-align: center;
 
