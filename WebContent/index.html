@@ -26,26 +26,7 @@
 <!-- 		  bootstrap.min.js -->
 		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
 		  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		 <!-- facebook login-->
-		<script>
-		  window.fbAsyncInit = function() {
-		    FB.init({
-		      appId      : '1944287402524197',
-		      cookie     : true,
-		      xfbml      : true,
-		      version    : 'v2.8'
-		    });
-		    FB.AppEvents.logPageView();
-		  };
-
-		  (function(d, s, id){
-		     var js, fjs = d.getElementsByTagName(s)[0];
-		     if (d.getElementById(id)) {return;}
-		     js = d.createElement(s); js.id = id;
-		     js.src = "//connect.facebook.net/en_US/sdk.js";
-		     fjs.parentNode.insertBefore(js, fjs);
-		   }(document, 'script', 'facebook-jssdk'));
-		</script>
+		
 
 
 
@@ -118,27 +99,213 @@
 				      	</a>
 				    </div>
 				    <ul class="nav navbar-nav">
-					    <li class="active"><a href="#"><i class="fa fa-home" aria-hidden="true"></i> Inicio</a></li>
+					    <li class="active"><a id="homeButton"><i class="fa fa-home" aria-hidden="true"></i> Inicio</a></li>
 					    <li><a href="#"><i class="fa fa-male" aria-hidden="true"></i> Hombre</a></li>
 					    <li><a href="#"><i class="fa fa-female" aria-hidden="true"></i> Mujer</a></li>
+					    <li><a id="getInTouchButton"><i class="fa fa-phone" aria-hidden="true"></i> Contacto</a></li>
 			  		</ul>
 			  		<ul class="nav navbar-nav navbar-right">
 					    <li class="dropdown">
 					    	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span><i class="fa fa-users" aria-hidden="true"></i></span> Acerca de nosostros<span class="caret"></span></a>
 					    	<ul class="dropdown-menu">
-					            <li><a href="aboutUs.html">¿Quiénes somos?</a></li>
-					            <li><a href="aboutUs.html">Nuestra misión</a></li>
-					            <li><a href="aboutUs.html">Nuestra visión</a></li>
-					            <li><a href="aboutUs.html">Nuestros valores</a></li>
+					            <li><a id="whoAreWeButton">¿Quiénes somos?</a></li>
+					            <li><a>Nuestra misión</a></li>
+					            <li><a>Nuestra visión</a></li>
+					            <li><a>Nuestros valores</a></li>
 					          </ul>
 					    </li>
 			  		</ul>
 				</div>
 			</nav>
 		</header>
+		
+<!-- 		https://mimity25.netlify.com/contact.html -->
 
 		<div class="container-fluid" id="mainContent">
-			<div class="row">
+			<!-- sección de about us -->
+			<div class="row" id="aboutUs">
+				<div class="col-md-1">
+				
+				</div>
+				<div class="col-md-7">
+					<h1 style="border-bottom:3px solid #43ACA2; border-left: 10px; solid #00897B; margin-bottom:20px; font-size:20px; font-family: 'Oxygen', sans-serif;">Acerca de nostros</h1>
+					<img style="width:100% ; margin-bottom:10px; "  src="images/photographer.jpg" class="img-responsive img-thumbnail"/>
+					<h2>¿Quiénes somos?</h2>
+					<p>
+						Innovaciones Aburelé es una empresa 100% Mexicana, la idea principal es la comercialización de diferentes estilos de playeras con diseños originales en sublimado y estampado con papel transfer. Comprometidos con entregar al cliente un producto de calidad que le ayude a expresar su personalidad, le brinde identidad  y confort.
+					</p>
+					<p>
+						Innovaciones Aburelé es símbolo de:
+					</p>
+					<ul>
+						<li>Jueventud</li>
+						<li>Vitalidad</li>
+						<li>Creatividad</li>
+						<li>Originalidad</li>	
+						<li>Responsabilidad social</li>
+					</ul>
+					<div class="panel-group" id="accordion">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+						    	<h4 class="panel-title">
+						        	<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+						       	 	Nuestra misión</a>
+						      	</h4>
+						    </div>
+						    <div id="collapse1" class="panel-collapse collapse in">
+						      <div class="panel-body">
+						      	Innovaciones Aburelé tiene como misión transformar y comercializar prendas textiles de alta calidad con los diseños más originales del mercado para hombres y mujeres de la Ciudad de México, atender a sus necesidades de vestido, siendo una empresa responsable con la sociedad y con el medio ambiente, que apoya la economía Mexicana a través de sus precios.
+						      	 </div>
+						    </div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+							    	<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+							        	Nuestra visión</a>
+							     </h4>
+							</div>
+							<div id="collapse2" class="panel-collapse collapse">
+								<div class="panel-body">Hacer de Innovaciones Aburelé un negocio rentable, productivo e innovador, reconocida por su calidad y preocupación por las necesidades de los clientes. Manufacturar y distribuir sus productos en otras regiones del territorio Nacional. Así como posicionarnos como una empresa 100% Mexicana líder en innovación, sublimado y estampado de playeras.
+								</div>
+							</div>
+					 	</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+						    	<h4 class="panel-title">
+						        	<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+						        	Nuestros valores</a>
+						      	</h4>
+						    </div>
+						    <div id="collapse3" class="panel-collapse collapse">
+						    	<div class="panel-body">
+						    		<ul>
+						    			<li>
+						    				<b>Compromiso</b> al entregar al cliente el producto que compra, así como el compromiso con la sociedad y cada uno de los integrantes de la empresa. 
+										</li>
+										<li>
+											<b>Honestidad</b> al ofrecer al cliente información detallada acerca del producto que adquiere, así de manera interna con cada uno de los integrantes y socios que la conforman. 
+										</li>
+										<li>
+											<b>Responsabilidad</b> ser consciente de las necesidades de cada uno de los socios, integrantes y clientes acerca de sus necesidades y expectaticas del producto, así como utilizar productos amigables con el ambiente. 
+										</li>
+										<li>
+											<b>Profesionalismo</b> al entregar los productos de calidad con diseños originales, que han sido elaborados a través de un proceso estricto de producción. 
+										</li>
+										<li>
+											<b>Creatividad</b> al ofrecer al cliente productos innovadores con diseños originales. 
+										</li>
+										<li>
+											<b>Puntualidad</b> con el cliente y cada uno de los integrantes cuando se creen acuerdos que comprometan a cada uno de estos, ser consientes de la importancia de respetar el tiempo de los demás. 
+										</li>
+										<li>
+											<b>Limpieza</b> al entregar el producto que esté en las mejores condiciones posibles y bajo los parámetros que se establezcan para entregar el producto. A demás de en el área de producción para poder llevar a cabo la labor en la mejores condiciones posibles.
+										</li>
+										<li>
+											<b>Solidaridad</b> al ofrecer a nuestros clientes un producto que sea accesible a sus posibilidades económicas, así como con los integrantes y socios de la empresa, ofreciendo una ayuda mutua siempre. 
+										</li>
+										<li>
+											<b>Servicio al cliente</b>  siendo uno de los pilares más importantes dentro de la empresa, ya que es en donde se obtendrán los ingresos, es por ello que el servicio al cliente siempre debe cumplir con todos los parámetros anteriores con el fin de crear más promotores que recomienden nuestro producto y nos hagan crecer como una empresa rentable y socialmente responsable. 
+										</li>
+						    		</ul>
+						    	</div>
+						    </div>
+						  </div>
+					</div> 
+					<!-- fin del accordion -->
+					<address>
+						<strong>Innovaciones Aburelé S.C de R.L México.</strong><br>
+			            Ciudad de México.<br>
+			            Delegación Miguel Hidalgo<br>
+			            <abbr>Teléfono:</abbr> +52-55-23093943
+			         </address>
+					
+				</div>
+				<div class="col-md-3" >
+					<h1 style=" border-bottom:3px solid #43ACA2; border-left: 10px; solid #00897B; margin-bottom:20px; font-size:20px; font-family: 'Oxygen', sans-serif;">Testimonios</h1>
+
+			       	<div class="containerTestimonial">
+						<img src="bandmember.jpg" alt="Avatar" style="width:90px">
+					  	<p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
+					  	<p>They are amazing aburelé rules.</p>
+					</div>
+					<div class="containerTestimonial">
+						<img src="avatar_g2.jpg" alt="Avatar" style="width:90px">
+					  	<p><span >Rebecca Flex.</span> CEO at Company.</p>
+					  	<p>No one is better than Aburelé.</p>
+					</div>
+					<div class="containerTestimonial">
+						<img src="avatar_g2.jpg" alt="Avatar" style="width:90px">
+					  	<p><span >Rebecca Flex.</span> CEO at Company.</p>
+					  	<p>Compro en aburelé y los amo.</p>
+					</div>
+					<div class="containerTestimonial">
+						<img src="avatar_g2.jpg" alt="Avatar" style="width:90px">
+					  	<p><span >Rebecca Flex.</span> CEO at Company.</p>
+					  	<p>Qué estás esperando comprar ya en aburelé y probar los increíbles diseños que tienen para ti.</p>
+					</div>
+				</div>
+				<div class="col-md-1">
+					
+				</div>
+				
+				
+			</div>
+			
+			<!--fin de la sección acerca de nostros  -->
+			<!-- inicio de la sección de contacto -->
+			<div class="row" id="getInTouchSection">
+				<div class="col-md-1">
+				
+				</div>
+				<div class="col-md-7" style="padding-bottom:20px; ">
+					<h1 style="border-bottom:3px solid #43ACA2; border-left: 10px; solid #00897B; margin-bottom:20px; font-size:20px; font-family: 'Oxygen', sans-serif;">¡Contactanos! </h1>
+					<form >
+						<div class="form-group">
+					    	<label for="nombre">Nombre (*)</label>
+					    	<input type="text" class="form-control" id="nombre">
+					  	</div>
+					  	<div class="form-group">
+					    	<label for="pwd">Correo electrónico (*)</label>
+					    	<input type="text" class="form-control" id="correo">
+					  	</div>
+					  	<div class="form-group">
+					    	<label for="pwd">Título del mensaje (*)</label>
+					    	<input type="text" class="form-control" id="titulo">
+					  	</div>
+					  	<div class="form-group">
+					    	<label for="mensaje">Mensaje (*)</label>
+					    	<textarea class="form-control" rows="5" id="mensaje"></textarea>
+					  	</div>
+					  	
+					  
+					  	<button type="submit" class="btn btn-default pull-right">Enviar</button>
+					</form>
+					
+					
+					
+				</div>
+				<div class="col-md-3" >
+					<h1 style=" border-bottom:3px solid #43ACA2; border-left: 10px; solid #00897B; margin-bottom:20px; font-size:20px; font-family: 'Oxygen', sans-serif;">Información de contacto</h1>
+					<address>
+						<strong>Innovaciones Aburelé S.C de R.L México.</strong><br>
+			            Ciudad de México.<br>
+			            Delegación Miguel Hidalgo<br>
+			            <abbr>Teléfono:</abbr> +52-55-23093943
+			         </address>
+			       
+					
+					<h1 style=" border-bottom:3px solid #43ACA2; border-left: 10px; solid #00897B; margin-bottom:20px; font-size:20px; font-family: 'Oxygen', sans-serif;">Nuestra ubicación</h1>
+				</div>
+				<div class="col-md-1">
+					
+				</div>
+				
+				
+			</div>
+
+			<!-- primera sección -->
+			<div class="row" id="sellingSection">
 				<div class="col-md-3 sidebar">
 					<div class="panel panel-default" id="firstPanel">
 						<div class="panel-heading" id="panelHeading">
@@ -246,7 +413,7 @@
 					<div class="items">
 
 					 <ul class="list-inline">
-					  	<li><a href="#"><img  data-original="http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/nXUAAOxyeZNTQCEJ/$_1.JPG?set_id=2" src="http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/nXUAAOxyeZNTQCEJ/$_1.JPG?set_id=2" class="img-responsive img-thumbnail lazy adjustImage"   alt="Responsive image"></a></li>
+					  	<li><a href="#"><img  data-original="http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/nXUAAOxyeZNTQCEJ/$_1.JPG?set_id=2" src="http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/nXUAAOxyeZNTQCEJ/$_1.JPG?set_id=2" class="img-responsive img-thumbnail lazy adjustImage "   alt="Responsive image"></a></li>
 					    <li><a href="#"><img  data-original="http://scene7.zumiez.com/is/image/zumiez/pdp_hero/Imaginary-Foundation-Equilateral-Panel-Black-Sublimation-T-Shirt-_225185.jpg"   src="http://scene7.zumiez.com/is/image/zumiez/pdp_hero/Imaginary-Foundation-Equilateral-Panel-Black-Sublimation-T-Shirt-_225185.jpg" class="img-responsive img-thumbnail lazy adjustImage" alt="Responsive image"></a></li>
 					    <li><a href="#"><img  data-original="https://assets.entrepreneur.com/soy/franquicias/playera_HS.jpg" src="https://assets.entrepreneur.com/soy/franquicias/playera_HS.jpg"  class="img-responsive img-thumbnail lazy adjustImage" alt="Responsive image"></a></li>
 					    <li><a href="#"><img  data-original="https://s-media-cache-ak0.pinimg.com/564x/ba/82/37/ba823720294499e39cdd5928d83dbb53.jpg" src ="https://s-media-cache-ak0.pinimg.com/564x/ba/82/37/ba823720294499e39cdd5928d83dbb53.jpg" class="img-responsive img-thumbnail lazy adjustImage" alt="Responsive image"></a></li>
@@ -263,6 +430,10 @@
 					</div>
 				</div>
 			</div>
+			
+			
+			
+			
 		</div><!-- end mainContainer -->
 
 		<footer>
@@ -377,9 +548,7 @@
 										  <p><span >Rebecca Flex.</span> CEO at Company.</p>
 										  <p>No one is better than John Doe.</p>
 										</div>
-								    </div>
-								    
-								    
+								    </div> 
 							  </div>
 							</div>
 						</div>
