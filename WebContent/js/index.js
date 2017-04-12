@@ -58,9 +58,9 @@ $(document).ready(function(){
     handleModalAnimation(); 
     imageToShowOnImageClic(); 
        //remove this two lines of code
-    $("#aboutUs").show();
-    $("#sellingSection").hide(); 
-    
+//    $("#aboutUs").show();
+//    $("#sellingSection").hide(); 
+//    
     $("#whoAreWeButton").on("click", function(){
     	$("#aboutUs").fadeIn(); 
     	$("#sellingSection").fadeOut(); 
